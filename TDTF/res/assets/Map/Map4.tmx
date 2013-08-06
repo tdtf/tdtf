@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="23" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Stage08_map_editor-hd" tilewidth="32" tileheight="32">
+  <image source="Stage08_map_editor-hd.png" width="960" height="1280"/>
+ </tileset>
+ <tileset firstgid="1201" name="mate_tiles" tilewidth="32" tileheight="32">
+  <image source="mate_tiles.png" width="64" height="32"/>
+ </tileset>
+ <layer name="bg" width="30" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3T04IYBgAAsKtWrOZq27Zt27Zt27Zt27Zt23a7POQTkjpQQEAa0pKO9GQgI5nITBayko3s5CAnuchNHvKSj/wUoCCFKEwRilKM4pSgJKUoTRnKUo7yVKAilahMFapSjerUoCa1qE0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rSjvZ0oCOd6EwXutKN7vSgJ73oTR/60o/+DGAggxjMEIYyjOGMYCSjGM0YxjKO8UxgIpOYzBSmMo3pzGAms5jNHOYyj/ksYCGLWMwSlrKM5axgJatYzRrWso71bGAjm9jMFrayje3sYCe72M0e9rKP/RzgIIc4zBGOcozjnOAkpzjNGc5yjvNc4CKXuMwVrnKN69zgJre4zR3uco/7POAhj3jME57yjOe84CWveM0b3vKO93zgI5/4zBe+8o3v/OAnv/jNH/4SEDggIBCBCUJQgvEPwQlBSELxL6EJQ1jCEZ4IRCQSkYlCVKLxH9GJQUxiEZs4xCUe8UlAQhKRmCQkJRnJSUFKUpGaNKQlHenJQEYykZksZCUb2clBTnKRmzzkJR/5KUBBClGYIhSlGMUpQUlKUZoylKUc5alARSpRmSpUpRrVqUFNalGbOtSlHvVpQEMa0ZgmNKUZzWlBS1rRmja0pR3t6UBHOtGZLnSlG93pQU960Zs+9KUf/RnAQAYxmCEMZRjDGcFIRjGaMYxlHOOZwEQmMZkpTGUa05nBTGYxmznMZR7zWcBCFrGYJSxlGctZwUpWsZo1rGUd69nARjaxmS1sZRvb2cFOdrGbPexlH/s5wEEOcZgjHOUYxznBSU5xmjOc5RznucBFLnGZK1zlGte5wU1ucZs73OUe93nAQx7xmCc85RnPecFLXvGaN7zlHe/5wEc+8ZkvfOUb3/nBT37xmz/8JSCI/wQmCEEJxj8EJwQhCcW/hCYMYQlHeCIQkUhEJgpRicZ/RCcGMYlFbOIQl3jEJwEJSURikpCUZCQnBSlJRWrSkJZ0pCcDGclEZrKQlWxkJwc5yUVu8pCXfOSnAAUpRGGKUJRiFKcEJSlFacpQlnKUpwIVqURlqlCValSnBjWpRW3qUJd61KcBDWlEY5rQlGY0pwUtaUVr2tCWdrSnAx3pRGe60JVudKcHPelFb/rQl370ZwADGcRghjCUYQxnBCMZxWjGMJZxjGcCE5nEZKYwlWlMZwYzmcVs5jCXecxnAQtZxGKWsJRlLGcFK1nFatawlnWsZwMb2cRmtrCVbWxnBzvZxW72sJd97OcABznEYY5wlGMc5wQnOcVpznCWc5znAhe5xGWucJVrXOcGN7nFbe7wP5kD3IjICgAA
+  </data>
+ </layer>
+ <objectgroup name="waypoint" width="30" height="23">
+  <object name="waypoint1" x="144" y="-32"/>
+  <object name="waypoint2" x="144" y="160"/>
+  <object name="waypoint3" x="208" y="160"/>
+  <object name="waypoint4" x="208" y="480"/>
+  <object name="waypoint5" x="272" y="480"/>
+  <object name="waypoint6" x="272" y="672"/>
+  <object name="waypoint7" x="688" y="672"/>
+  <object name="waypoint8" x="688" y="480"/>
+  <object name="waypoint9" x="848" y="480"/>
+  <object name="waypoint10" x="848" y="112"/>
+ </objectgroup>
+ <layer name="Meta" width="30" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SuQ0AIAgAQAv3H8YJrSGovBIfEhIL9RRotYBoFa4jM8vF1mvuqP43uZTj4XLu+26Mm9HfrLla7fVwqX9IXY2tdalaWVLrWm2Oi+sjdb36ssPFPaXCOkOcN2e5p53VzMQqOGdmRgdUR5alyAoAAA==
+  </data>
+ </layer>
+</map>

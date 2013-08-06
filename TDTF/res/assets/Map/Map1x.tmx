@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Stage02_map_editor-hd" tilewidth="64" tileheight="64">
+  <image source="Stage02_map_editor-hd.png" width="960" height="1280"/>
+ </tileset>
+ <tileset firstgid="301" name="mate_tiles" tilewidth="64" tileheight="64">
+  <image source="mate_tiles.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Colidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Colidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="15" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC6XDh1YNAAAA0PefJA3RoEJG2yqhKGko2sMWKiQjitIyipTV0lLZqcj9B/ecuy4QCKw3yA0Gu9EQQw0z3E1GuNktRhpltDFudZuxxhnvdne40wR3uds97jXRJJNNMdU0093nfg940ENmmOlhszziUY+ZbY7HPWGueZ4031MWWGiRxZ62xFLPeNYyy62w0iqrrbHWOus953kveNFLXvaKV23wmte9YaNNNnvTW962xTu2etd73veBbT70ke12+NgndtrlU7vtsdc++33mc1/40gEHfeVrh3zjsCO+9Z3v/eBHRx1z3Akn/eSU084465yfnXfBRb/41W9+94c//eWSv112xVX/+Ne1wP/5B9oGCmXQAgAA
+  </data>
+ </layer>
+ <objectgroup name="waypoint" width="15" height="12">
+  <object name="waypoint1" x="-40" y="209"/>
+  <object name="waypoint2" x="205" y="209"/>
+  <object name="waypoint3" x="205" y="609"/>
+  <object name="waypoint4" x="482" y="609"/>
+  <object name="waypoint5" x="482" y="282"/>
+  <object name="waypoint6" x="304" y="282"/>
+  <object name="waypoint7" x="304" y="26"/>
+  <object name="waypoint8" x="580" y="26"/>
+  <object name="waypoint9" x="580" y="279"/>
+  <object name="waypoint10" x="865" y="279"/>
+ </objectgroup>
+ <layer name="Meta" width="15" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9NjZGDQg2IQ0GMkHiOrh7HRAS5z0dXjEyPGXbjsxaWXVHF8bsfnd3x6CYUbqXrJdTMpcU5qWGHzGyH3UgIAdOy33NACAAA=
+  </data>
+ </layer>
+</map>

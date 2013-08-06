@@ -1,0 +1,1157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<itemlist>
+    <itemtype itemtypeid="0" itemtypename="Weapon">
+        <item itemid="3743"
+              name="&lt;EN&gt;Heavenly Halberd&lt;EN&gt;&lt;CHS&gt;方天画戟&lt;CHS&gt;&lt;CHT&gt;方天畫戟&lt;CHT&gt;&lt;JP&gt;方天画戟&lt;JP&gt;">
+            <icon image="items\icon_fangtianhuaji-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+150"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="3745"
+              name="&lt;EN&gt;Blue Dragon&lt;EN&gt;&lt;CHS&gt;青龙偃月刀&lt;CHS&gt;&lt;CHT&gt;青龍偃月刀&lt;CHT&gt;&lt;JP&gt;青龍偃月刀&lt;JP&gt;">
+            <icon image="items\icon_qinglongyanyuedao-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+50"/>
+                <impact value="5" num="+64"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="8649"
+              name="&lt;EN&gt;Iron Snake Spear&lt;EN&gt;&lt;CHS&gt;铁戟蛇矛&lt;CHS&gt;&lt;CHT&gt;鐵戟蛇矛&lt;CHT&gt;&lt;JP&gt;鉄戟蛇矛&lt;JP&gt;">
+            <icon image="items\icon_tiejishemao-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+40"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="8651"
+              name="&lt;EN&gt;Long Serpent Spear&lt;EN&gt;&lt;CHS&gt;丈八蛇矛&lt;CHS&gt;&lt;CHT&gt;丈八蛇矛&lt;CHT&gt;&lt;JP&gt;丈八蛇矛&lt;JP&gt;">
+            <icon image="items\icon_zhangbashemao-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+100"/>
+                <impact value="5" num="+32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9540"
+              name="&lt;EN&gt;Sword of Heaven&lt;EN&gt;&lt;CHS&gt;倚天剑&lt;CHS&gt;&lt;CHT&gt;倚天劍&lt;CHT&gt;&lt;JP&gt;倚天剣&lt;JP&gt;">
+            <icon image="items\icon_qinggangjian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+120"/>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="-32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9542"
+              name="&lt;EN&gt;Sword of Light&lt;EN&gt;&lt;CHS&gt;青釭剑&lt;CHS&gt;&lt;CHT&gt;青釭劍&lt;CHT&gt;&lt;JP&gt;青釭剣&lt;JP&gt;">
+            <icon image="items\icon_qinggangjian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+140"/>
+                <impact value="5" num="-32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9544"
+              name="&lt;EN&gt;Yin-Yang Swords&lt;EN&gt;&lt;CHS&gt;双股剑&lt;CHS&gt;&lt;CHT&gt;雙股劍&lt;CHT&gt;&lt;JP&gt;双股剣&lt;JP&gt;">
+            <icon image="items\icon_shuanggujian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+90"/>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="-20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9546"
+              name="&lt;EN&gt;Zhuge's crossbow&lt;EN&gt;&lt;CHS&gt;诸葛连弩&lt;CHS&gt;&lt;CHT&gt;諸葛連弩&lt;CHT&gt;&lt;JP&gt;諸葛連弩&lt;JP&gt;">
+            <icon image="items\icon_zhugeliannu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+90"/>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="-32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9548"
+              name="&lt;EN&gt;Fierce Dragon&lt;EN&gt;&lt;CHS&gt;龙胆枪&lt;CHS&gt;&lt;CHT&gt;龍膽槍&lt;CHT&gt;&lt;JP&gt;龍胆槍&lt;JP&gt;">
+            <icon image="items\icon_longdanqiang-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+50"/>
+                <impact value="3" num="-0.1"/>
+                <impact value="5" num="+32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9550"
+              name="&lt;EN&gt;Ancestral Broadsword&lt;EN&gt;&lt;CHS&gt;古锭刀&lt;CHS&gt;&lt;CHT&gt;古錠刀&lt;CHT&gt;&lt;JP&gt;古錠刀&lt;JP&gt;">
+            <icon image="items\icon_gudiandao-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+20"/>
+                <impact value="3" num="+0.1"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9552"
+              name="&lt;EN&gt;Seven Star Sword&lt;EN&gt;&lt;CHS&gt;七星宝刀&lt;CHS&gt;&lt;CHT&gt;七星寶刀&lt;CHT&gt;&lt;JP&gt;七星宝刀&lt;JP&gt;">
+            <icon image="items\icon_qixingbaodao-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+90"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9554"
+              name="&lt;EN&gt;Li Guang's Bow&lt;EN&gt;&lt;CHS&gt;李广弓&lt;CHS&gt;&lt;CHT&gt;李廣弓&lt;CHT&gt;&lt;JP&gt;李広弓&lt;JP&gt;">
+            <icon image="items\icon_liguanggong-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+60"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9556"
+              name="&lt;EN&gt;Feather Fan&lt;EN&gt;&lt;CHS&gt;羽扇&lt;CHS&gt;&lt;CHT&gt;羽扇&lt;CHT&gt;&lt;JP&gt;羽扇&lt;JP&gt;">
+            <icon image="items\icon_yushan-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+70"/>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="-20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9558"
+              name="&lt;EN&gt;Mace&lt;EN&gt;&lt;CHS&gt;狼牙锤&lt;CHS&gt;&lt;CHT&gt;狼牙錘&lt;CHT&gt;&lt;JP&gt;狼牙錘&lt;JP&gt;">
+            <icon image="items\icon_langyachui-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+80"/>
+                <impact value="3" num="-0.2"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9560"
+              name="&lt;EN&gt;Huang Zhong's Bow&lt;EN&gt;&lt;CHS&gt;黄忠弓&lt;CHS&gt;&lt;CHT&gt;黄忠弓&lt;CHT&gt;&lt;JP&gt;黄忠弓&lt;JP&gt;">
+            <icon image="items\icon_yangyoujigong-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+70"/>
+                <impact value="5" num="+48"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9562"
+              name="&lt;EN&gt;Ettin Axe&lt;EN&gt;&lt;CHS&gt;双刃斧&lt;CHS&gt;&lt;CHT&gt;雙刃斧&lt;CHT&gt;&lt;JP&gt;双刃斧&lt;JP&gt;">
+            <icon image="items\icon_shuangrenfu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+50"/>
+                <impact value="3" num="-0.1"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118720"
+              name="&lt;EN&gt;Hook of Wu&lt;EN&gt;&lt;CHS&gt;吴钩&lt;CHS&gt;&lt;CHT&gt;吳鉤&lt;CHT&gt;&lt;JP&gt;呉鈎&lt;JP&gt;">
+            <icon image="items\icon_wugou-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+20"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118722"
+              name="&lt;EN&gt;Jade Hammer&lt;EN&gt;&lt;CHS&gt;丽玉锤&lt;CHS&gt;&lt;CHT&gt;麗玉錘&lt;CHT&gt;&lt;JP&gt;麗玉錘&lt;JP&gt;">
+            <icon image="items\icon_liyuchui-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+50"/>
+                <impact value="3" num="-0.05"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118724"
+              name="&lt;EN&gt;Axe of Ox&lt;EN&gt;&lt;CHS&gt;牛头斧&lt;CHS&gt;&lt;CHT&gt;牛頭斧&lt;CHT&gt;&lt;JP&gt;牛頭斧&lt;JP&gt;">
+            <icon image="items\icon_niutou-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+20"/>
+                <impact value="3" num="-0.05"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118726"
+              name="&lt;EN&gt;Talon of Beast King&lt;EN&gt;&lt;CHS&gt;兽王爪&lt;CHS&gt;&lt;CHT&gt;獸王爪&lt;CHT&gt;&lt;JP&gt;獣王爪&lt;JP&gt;">
+            <icon image="items\icon_shouwang-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+80"/>
+                <impact value="3" num="-0.1"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118728"
+              name="&lt;EN&gt;Fang of Kylin&lt;EN&gt;&lt;CHS&gt;麒麟牙&lt;CHS&gt;&lt;CHT&gt;麒麟牙&lt;CHT&gt;&lt;JP&gt;麒麟牙&lt;JP&gt;">
+            <icon image="items\icon_qilinya-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+100"/>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="-32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118730"
+              name="&lt;EN&gt;Thunder Axe&lt;EN&gt;&lt;CHS&gt;惊雷斧&lt;CHS&gt;&lt;CHT&gt;驚雷斧&lt;CHT&gt;&lt;JP&gt;驚雷斧&lt;JP&gt;">
+            <icon image="items\icon_jingleifu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+30"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118732"
+              name="&lt;EN&gt;Talons of Flying Tiger&lt;EN&gt;&lt;CHS&gt;飞天虎爪&lt;CHS&gt;&lt;CHT&gt;飛天虎爪&lt;CHT&gt;&lt;JP&gt;飛天虎爪&lt;JP&gt;">
+            <icon image="items\icon_feitianhuzhua-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+50"/>
+                <impact value="5" num="-20"/>
+                <impact value="3" num="+0.1"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118734"
+              name="&lt;EN&gt;Claw of Rosefinch&lt;EN&gt;&lt;CHS&gt;朱雀爪&lt;CHS&gt;&lt;CHT&gt;朱雀爪&lt;CHT&gt;&lt;JP&gt;朱雀爪&lt;JP&gt;">
+            <icon image="items\icon_zhuquezhua-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+140"/>
+                <impact value="5" num="-32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118736"
+              name="&lt;EN&gt;Halberds of Xiang Yu&lt;EN&gt;&lt;CHS&gt;项羽戟&lt;CHS&gt;&lt;CHT&gt;項羽戟&lt;CHT&gt;&lt;JP&gt;項羽戟&lt;JP&gt;">
+            <icon image="items\icon_xiangyuji-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+40"/>
+                <impact value="3" num="-0.05"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118738"
+              name="&lt;EN&gt;Fang Axe&lt;EN&gt;&lt;CHS&gt;牙断斧&lt;CHS&gt;&lt;CHT&gt;牙斷斧&lt;CHT&gt;&lt;JP&gt;牙断斧&lt;JP&gt;">
+            <icon image="items\icon_yaduan-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+70"/>
+                <impact value="5" num="-20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134815"
+              name="&lt;EN&gt;Poisoned Dragon Bow&lt;EN&gt;&lt;CHS&gt;毒龙铁胎弓&lt;CHS&gt;&lt;CHT&gt;毒龍鐵胎弓&lt;CHT&gt;&lt;JP&gt;毒龍鉄胎弓&lt;JP&gt;">
+            <icon image="items\icon_dulongtietaigong-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+40"/>
+                <impact value="3" num="-0.1"/>
+                <impact value="5" num="+26"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134817"
+              name="&lt;EN&gt;Fire Bow of Zhu Rong&lt;EN&gt;&lt;CHS&gt;祝融神火弓&lt;CHS&gt;&lt;CHT&gt;祝融神火弓&lt;CHT&gt;&lt;JP&gt;祝融神火弓&lt;JP&gt;">
+            <icon image="items\icon_dulongtietaigong-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+100"/>
+                <impact value="3" num="-0.2"/>
+                <impact value="5" num="+56"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134819"
+              name="&lt;EN&gt;Sable Serpent Whip&lt;EN&gt;&lt;CHS&gt;玄武神鞭&lt;CHS&gt;&lt;CHT&gt;玄武神鞭&lt;CHT&gt;&lt;JP&gt;玄武神鞭&lt;JP&gt;">
+            <icon image="items\icon_xuanwushenbian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+110"/>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="-26"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134821"
+              name="&lt;EN&gt;Cold Jade Sword&lt;EN&gt;&lt;CHS&gt;寒玉剑&lt;CHS&gt;&lt;CHT&gt;寒玉劍&lt;CHT&gt;&lt;JP&gt;寒玉剣&lt;JP&gt;">
+            <icon image="items\icon_xuanwushenbian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+110"/>
+                <impact value="5" num="-20"/>
+            </impacts>
+            <objects/>
+        </item>
+    </itemtype>
+    <itemtype itemtypeid="1" itemtypename="Equipment">
+        <item itemid="9564"
+              name="&lt;EN&gt;24 Chapters of War&lt;EN&gt;&lt;CHS&gt;兵法二十四篇&lt;CHS&gt;&lt;CHT&gt;兵法二十四篇&lt;CHT&gt;&lt;JP&gt;兵法二十四篇&lt;JP&gt;">
+            <icon image="items\icon_bingfa24pian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+24"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9566"
+              name="&lt;EN&gt;Map of Shu&lt;EN&gt;&lt;CHS&gt;西蜀地形图&lt;CHS&gt;&lt;CHT&gt;西蜀地形圖&lt;CHT&gt;&lt;JP&gt;西蜀地形図&lt;JP&gt;">
+            <icon image="items\icon_xishudixingtu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+10"/>
+                <impact value="5" num="+32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="9568"
+              name="&lt;EN&gt;Art of War&lt;EN&gt;&lt;CHS&gt;孙子兵法&lt;CHS&gt;&lt;CHT&gt;孫子兵法&lt;CHT&gt;&lt;JP&gt;孫子兵法&lt;JP&gt;">
+            <icon image="items\icon_sunzibingfa-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="-0.2"/>
+                <impact value="5" num="+80"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10457"
+              name="&lt;EN&gt;Bronze Sparrow&lt;EN&gt;&lt;CHS&gt;铜雀&lt;CHS&gt;&lt;CHT&gt;銅雀&lt;CHT&gt;&lt;JP&gt;銅雀&lt;JP&gt;">
+            <icon image="items\icon_tongque-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.15"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10459"
+              name="&lt;EN&gt;The Art of War by Wutzu&lt;EN&gt;&lt;CHS&gt;吴子兵法&lt;CHS&gt;&lt;CHT&gt;吳子兵法&lt;CHT&gt;&lt;JP&gt;呉子兵法&lt;JP&gt;">
+            <icon image="items\icon_wuzibingfa-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-10"/>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="+32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10461"
+              name="&lt;EN&gt;Stratagems of the Warring Stats&lt;EN&gt;&lt;CHS&gt;战国策&lt;CHS&gt;&lt;CHT&gt;戰國策&lt;CHT&gt;&lt;JP&gt;戦国策&lt;JP&gt;">
+            <icon image="items\icon_zhanguoce-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+48"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10463"
+              name="&lt;EN&gt;Imperial Seal&lt;EN&gt;&lt;CHS&gt;传国玉玺&lt;CHS&gt;&lt;CHT&gt;傳國玉璽&lt;CHT&gt;&lt;JP&gt;伝国玉璽&lt;JP&gt;">
+            <icon image="items\icon_chuanguoyuxi-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="+80"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10465"
+              name="&lt;EN&gt;Seven Star Lamp&lt;EN&gt;&lt;CHS&gt;七星灯&lt;CHS&gt;&lt;CHT&gt;七星燈&lt;CHT&gt;&lt;JP&gt;七星灯&lt;JP&gt;">
+            <icon image="items\icon_qixingdeng-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+64"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10467"
+              name="&lt;EN&gt;Meng De's War Manual&lt;EN&gt;&lt;CHS&gt;孟德新书&lt;CHS&gt;&lt;CHT&gt;孟德新書&lt;CHT&gt;&lt;JP&gt;孟徳新書&lt;JP&gt;">
+            <icon image="items\icon_mengdexinshu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.2"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="11549"
+              name="&lt;EN&gt;Way of Peace&lt;EN&gt;&lt;CHS&gt;太平要术&lt;CHS&gt;&lt;CHT&gt;太平要術&lt;CHT&gt;&lt;JP&gt;太平要術&lt;JP&gt;">
+            <icon image="items\icon_taipingyaoshu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-30"/>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="+32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118708"
+              name="&lt;EN&gt;Talisman of Bravery&lt;EN&gt;&lt;CHS&gt;神勇符&lt;CHS&gt;&lt;CHT&gt;神勇符&lt;CHT&gt;&lt;JP&gt;神勇札&lt;JP&gt;">
+            <icon image="items\icon_guidaifu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.05"/>
+                <impact value="5" num="+18"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118710"
+              name="&lt;EN&gt;Talisman of Ghost&lt;EN&gt;&lt;CHS&gt;鬼带符&lt;CHS&gt;&lt;CHT&gt;鬼帶符&lt;CHT&gt;&lt;JP&gt;鬼帯札&lt;JP&gt;">
+            <icon image="items\icon_shenyongfu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+10"/>
+                <impact value="3" num="+0.05"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118712"
+              name="&lt;EN&gt;Jade Pendant&lt;EN&gt;&lt;CHS&gt;玉佩&lt;CHS&gt;&lt;CHT&gt;玉佩&lt;CHT&gt;&lt;JP&gt;玉佩&lt;JP&gt;">
+            <icon image="items\icon_yupei-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-20"/>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118714"
+              name="&lt;EN&gt;Jade Bracelet&lt;EN&gt;&lt;CHS&gt;玉镯&lt;CHS&gt;&lt;CHT&gt;玉鐲&lt;CHT&gt;&lt;JP&gt;玉鐲&lt;JP&gt;">
+            <icon image="items\icon_yuzhuo-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="+24"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118716"
+              name="&lt;EN&gt;Tips from Kong Ming&lt;EN&gt;&lt;CHS&gt;锦囊妙计&lt;CHS&gt;&lt;CHT&gt;錦囊妙計&lt;CHT&gt;&lt;JP&gt;錦嚢妙計&lt;JP&gt;">
+            <icon image="items\icon_jinnangmiaoji-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="+24"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118718"
+              name="&lt;EN&gt;Holy Inkstone&lt;EN&gt;&lt;CHS&gt;神兽砚&lt;CHS&gt;&lt;CHT&gt;神獸硯&lt;CHT&gt;&lt;JP&gt;神獣硯&lt;JP&gt;">
+            <icon image="items\icon_shenshouyan-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+80"/>
+                <impact value="1" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134823"
+              name="&lt;EN&gt;Zhen Mi Pearl Ring&lt;EN&gt;&lt;CHS&gt;甄宓耳珠&lt;CHS&gt;&lt;CHT&gt;甄宓耳飾&lt;CHT&gt;&lt;JP&gt;甄宓の耳飾り&lt;JP&gt;">
+            <icon image="items\icon_zhenmizhuer-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+10"/>
+                <impact value="5" num="+20"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134825"
+              name="&lt;EN&gt;Zhen Mi Jade Flute&lt;EN&gt;&lt;CHS&gt;甄宓玉笛&lt;CHS&gt;&lt;CHT&gt;甄宓玉笛&lt;CHT&gt;&lt;JP&gt;甄宓玉笛&lt;JP&gt;">
+            <icon image="items\icon_zhenmiyudi-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="+80"/>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="-26"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134827"
+              name="&lt;EN&gt;Four Spirits Mirror&lt;EN&gt;&lt;CHS&gt;四灵文镜 &lt;CHS&gt;&lt;CHT&gt;四靈文鏡&lt;CHT&gt;&lt;JP&gt;&lt;JP&gt;">
+            <icon image="items\icon_zhenmiyudi-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="+0.1"/>
+                <impact value="5" num="+50"/>
+            </impacts>
+            <objects/>
+        </item>
+    </itemtype>
+    <itemtype itemtypeid="2" itemtypename="Viecle">
+        <item itemid="32"
+              name="&lt;EN&gt;Hex Mark&lt;EN&gt;&lt;CHS&gt;的卢&lt;CHS&gt;&lt;CHT&gt;的盧&lt;CHT&gt;&lt;JP&gt;的盧&lt;JP&gt;">
+            <icon image="items\icon_dilu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="1"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-25"/>
+                <impact value="5" num="+80"/>
+            </impacts>
+            <objects>
+                <object id="4"/>
+            </objects>
+        </item>
+        <item itemid="10469"
+              name="&lt;EN&gt;Gray Lightning&lt;EN&gt;&lt;CHS&gt;爪黄飞电&lt;CHS&gt;&lt;CHT&gt;爪黃飛電&lt;CHT&gt;&lt;JP&gt;爪黄飛電&lt;JP&gt;">
+            <icon image="items\icon_zhuahuangfeidian-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+48"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10471"
+              name="&lt;EN&gt;Shadowless&lt;EN&gt;&lt;CHS&gt;绝影&lt;CHS&gt;&lt;CHT&gt;絕影&lt;CHT&gt;&lt;JP&gt;絶影&lt;JP&gt;">
+            <icon image="items\icon_jueying-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-10"/>
+                <impact value="5" num="+64"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="10473"
+              name="&lt;EN&gt;Red Hare&lt;EN&gt;&lt;CHS&gt;赤兔&lt;CHS&gt;&lt;CHT&gt;赤兔&lt;CHT&gt;&lt;JP&gt;赤兎&lt;JP&gt;">
+            <icon image="items\icon_chitu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-15"/>
+                <impact value="5" num="+96"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="114666"
+              name="&lt;EN&gt;White Crane&lt;EN&gt;&lt;CHS&gt;白鹤&lt;CHS&gt;&lt;CHT&gt;白鶴&lt;CHT&gt;&lt;JP&gt;白鶴&lt;JP&gt;">
+            <icon image="items\icon_baihe-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-10"/>
+                <impact value="5" num="+32"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="114668"
+              name="&lt;EN&gt;Express Sail&lt;EN&gt;&lt;CHS&gt;快航&lt;CHS&gt;&lt;CHT&gt;快航&lt;CHT&gt;&lt;JP&gt;快航&lt;JP&gt;">
+            <icon image="items\icon_kuaihang-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-10"/>
+                <impact value="5" num="+52"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="114670"
+              name="&lt;EN&gt;Clouds over the Snow&lt;EN&gt;&lt;CHS&gt;乌云踏雪&lt;CHS&gt;&lt;CHT&gt;烏雲踏雪&lt;CHT&gt;&lt;JP&gt;烏雲踏雪&lt;JP&gt;">
+            <icon image="items\icon_wuyuntaxue-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+56"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="118740"
+              name="&lt;EN&gt;Jade Lion&lt;EN&gt;&lt;CHS&gt;夜照玉狮子&lt;CHS&gt;&lt;CHT&gt;夜照玉獅子&lt;CHT&gt;&lt;JP&gt;夜照玉獅子&lt;JP&gt;">
+            <icon image="items\icon_yezhaoyushizi-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-10"/>
+                <impact value="5" num="+70"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134829"
+              name="&lt;EN&gt;Dao Li&lt;EN&gt;&lt;CHS&gt;盗骊&lt;CHS&gt;&lt;CHT&gt;盜驪&lt;CHT&gt;&lt;JP&gt;盗驪&lt;JP&gt;">
+            <icon image="items\icon_daoli-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="5" num="+26"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134831"
+              name="&lt;EN&gt;Jing Fan &lt;EN&gt;&lt;CHS&gt;惊帆&lt;CHS&gt;&lt;CHT&gt;驚帆&lt;CHT&gt;&lt;JP&gt;愕帆&lt;JP&gt;">
+            <icon image="items\icon_yezhaoyushizi-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="3" num="-0.05"/>
+                <impact value="5" num="+50"/>
+            </impacts>
+            <objects/>
+        </item>
+        <item itemid="134833"
+              name="&lt;EN&gt;Wind Chaser&lt;EN&gt;&lt;CHS&gt;追风&lt;CHS&gt;&lt;CHT&gt;追風&lt;CHT&gt;&lt;JP&gt;追風&lt;JP&gt;">
+            <icon image="items\icon_dilu-hd.png"/>
+            <description/>
+            <money>
+                <buy value="0"/>
+                <sell value="0"/>
+            </money>
+            <limits>
+                <lv value="0"/>
+                <wuxings/>
+                <bosses/>
+            </limits>
+            <impacts>
+                <impact value="1" num="-25"/>
+                <impact value="3" num="+0.2"/>
+                <impact value="5" num="+76"/>
+            </impacts>
+            <objects/>
+        </item>
+    </itemtype>
+</itemlist>

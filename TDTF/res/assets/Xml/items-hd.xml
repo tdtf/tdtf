@@ -1,0 +1,1141 @@
+﻿<?xml version="1.0" encoding="utf-8"?><itemlist><itemtype itemtypeid="0" itemtypename="Weapon"><item itemid="3743" name="&lt;EN&gt;Heavenly Halberd&lt;EN&gt;&lt;CHS&gt;方天画戟&lt;CHS&gt;&lt;CHT&gt;方天畫戟&lt;CHT&gt;&lt;JP&gt;方天画戟&lt;JP&gt;"><icon image="items\icon_fangtianhuaji-hd.png" /><description>&lt;EN&gt;Heavenly Halberd
+
+The favorite weapon of Lu Bu. It weighs near 50 pounds, with a crescent shaped blade as its tip.
+
+Attack +150&lt;EN&gt;
+&lt;CHS&gt;方天画戟
+
+武将吕布的画戟重四十斤，长一丈二，名曰方天画戟。
+
+攻击力+150&lt;CHS&gt;
+&lt;CHT&gt;方天畫戟
+
+武將呂布的畫戟重四十斤，長一丈二，名曰方天畫戟。
+
+攻擊力+150&lt;CHT&gt;
+&lt;JP&gt;方天画戟
+
+呂布の戟は重さ40斤、長さ1丈2尺あり、方天画戟と呼ばれる。
+
+攻撃力＋150&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+150" /></impacts><objects /></item><item itemid="3745" name="&lt;EN&gt;Blue Dragon&lt;EN&gt;&lt;CHS&gt;青龙偃月刀&lt;CHS&gt;&lt;CHT&gt;青龍偃月刀&lt;CHT&gt;&lt;JP&gt;青龍偃月刀&lt;JP&gt;"><icon image="items\icon_qinglongyanyuedao-hd.png" /><description>&lt;EN&gt;Blue Dragon
+
+The beloved weapon of Guan Yu. It weighs over 90 pounds, with the length of 9 feet 5 inches and dragon pattern on the blade.
+
+Attack +50, Range +32&lt;EN&gt;
+&lt;CHS&gt;青龙偃月刀
+
+关羽之武器，刀长九尺五寸，重八十二斤，刀身上镶有蟠龙吞月的图案，因而得名。
+
+攻击力+50，攻击范围+32&lt;CHS&gt;
+&lt;CHT&gt;青龍偃月刀
+
+關羽之武器，刀長九尺五寸，重八十二斤，刀身上鑲有蟠龍吞月的圖案，因而得名。
+
+攻擊力+50，攻擊範圍+32&lt;CHT&gt;
+&lt;JP&gt;青龍偃月刀
+
+関羽の武器。長さ9尺5寸、重さ82斤。太刀には龍が月を呑む装飾が施されている。
+
+攻撃力＋50、攻撃範囲＋32&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+50" /><impact value="5" num="+64" /></impacts><objects /></item><item itemid="8649" name="&lt;EN&gt;Iron Snake Spear&lt;EN&gt;&lt;CHS&gt;铁戟蛇矛&lt;CHS&gt;&lt;CHT&gt;鐵戟蛇矛&lt;CHT&gt;&lt;JP&gt;鉄戟蛇矛&lt;JP&gt;"><icon image="items\icon_tiejishemao-hd.png" /><description>&lt;EN&gt;Iron Snake Spear 
+
+The spear is forged by the best craftsman in Jiang Nan. The tip of the spear is snake-shaped and very sharp.
+
+Attack +40&lt;EN&gt;
+&lt;CHS&gt;铁戟蛇矛
+
+由江南地区的名匠打造，头部带有弯曲的蛇状刀，非常锋利。
+
+攻击力+40&lt;CHS&gt;
+&lt;CHT&gt;铁戟蛇矛
+
+由江南地區的名匠打造，頭部帶有彎曲的蛇狀刀，非常鋒利。
+
+攻擊力+40&lt;CHT&gt;
+&lt;JP&gt;鉄戟蛇矛
+
+江南の名匠の作。頭部が蛇状に湾曲しており、非常に鋭利。
+
+攻撃力＋40&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+40" /></impacts><objects /></item><item itemid="8651" name="&lt;EN&gt;Long Serpent Spear&lt;EN&gt;&lt;CHS&gt;丈八蛇矛&lt;CHS&gt;&lt;CHT&gt;丈八蛇矛&lt;CHT&gt;&lt;JP&gt;丈八蛇矛&lt;JP&gt;"><icon image="items\icon_zhangbashemao-hd.png" /><description>&lt;EN&gt;Long Serpent Spear
+
+Zhang Fei's Famous steel pike. The length of the tip is 8 inches in the shape of a snake.
+
+Attack +100, Range +16&lt;EN&gt;
+&lt;CHS&gt;丈八蛇矛
+
+猛将张飞之武器矛杆长一丈，矛尖长八寸，刃开双锋，作游蛇形状，故而名之。
+
+攻击力+100，攻击范围+16&lt;CHS&gt;
+&lt;CHT&gt;丈八蛇矛
+
+猛將張飛之武器矛杆長一丈，矛尖長八寸，刃開雙鋒，作遊蛇形狀，故而名之。
+
+攻擊力+100，攻擊範圍+16&lt;CHT&gt;
+&lt;JP&gt;丈八蛇矛
+
+張飛の武器。柄の長さ1丈、矛先8寸、二股で形状が蛇に似ている。
+
+攻撃力＋100、攻撃範囲＋16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+100" /><impact value="5" num="+32" /></impacts><objects /></item><item itemid="9540" name="&lt;EN&gt;Sword of Heaven&lt;EN&gt;&lt;CHS&gt;倚天剑&lt;CHS&gt;&lt;CHT&gt;倚天劍&lt;CHT&gt;&lt;JP&gt;倚天剣&lt;JP&gt;"><icon image="items\icon_qinggangjian-hd.png" /><description>&lt;EN&gt;Sword of Heaven
+
+Cao Cao possesses two swords: the Sword of Heaven and the Sword of Nature. The Sword of Heaven is the beloved one of his.
+
+Attack +120, Speed +0.1, Range -16&lt;EN&gt;
+&lt;CHS&gt;倚天剑
+
+曹操有宝剑二口:一名“倚天”，一名“青釭”。倚天剑自佩之，青釭剑令夏侯恩佩之。
+
+攻击力+120，攻击速度+0.1，攻击范围-16&lt;CHS&gt;
+&lt;CHT&gt;倚天劍
+
+曹操有寶劍二口:一名“倚天”，一名“青釭”。倚天劍自佩之，青釭劍令夏侯恩佩之。
+
+攻擊力+120，攻擊速度+0.1，攻擊範圍-16&lt;CHT&gt;
+&lt;JP&gt;倚天剣
+
+曹操は「倚天」、「青釭」の2つの宝剣を所有。自らは倚天剣を、夏侯恩に青釭剣を身に着けさせている。
+
+攻撃力＋120、攻撃速度＋0.1、攻撃範囲－16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+120" /><impact value="3" num="+0.1" /><impact value="5" num="-32" /></impacts><objects /></item><item itemid="9542" name="&lt;EN&gt;Sword of Light&lt;EN&gt;&lt;CHS&gt;青釭剑&lt;CHS&gt;&lt;CHT&gt;青釭劍&lt;CHT&gt;&lt;JP&gt;青釭剣&lt;JP&gt;"><icon image="items\icon_qinggangjian-hd.png" /><description>&lt;EN&gt;Sword of Light
+
+A sword of Cao Cao's. It is incredibly sharp. It used to be Xiaohou En's weapon but Zhao Yun acquired it in a battle.
+
+Attack +140, Range -16&lt;EN&gt;
+&lt;CHS&gt;
+青釭剑
+
+砍铁如泥，锋利无比。平素由夏侯恩替曹操掌管，于长坂坡被赵云一枪刺死，青釭剑亦被赵云所得。 
+
+攻击力+140，攻击范围-16&lt;CHS&gt;
+&lt;CHT&gt;青釭劍
+
+砍鐵如泥，鋒利無比。平素由夏侯恩替曹操掌管，於長阪坡被趙雲一槍刺死，青釭劍亦被趙雲所得。 
+
+攻擊力+140，攻擊範圍-16&lt;CHT&gt;
+&lt;JP&gt;青釭剣
+
+この上なく鋭利で鉄をも切り裂く。趙雲は夏侯恩を倒し、青釭剣得た。
+
+攻撃力＋140、攻撃範囲－16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+140" /><impact value="5" num="-32" /></impacts><objects /></item><item itemid="9544" name="&lt;EN&gt;Yin-Yang Swords&lt;EN&gt;&lt;CHS&gt;双股剑&lt;CHS&gt;&lt;CHT&gt;雙股劍&lt;CHT&gt;&lt;JP&gt;双股剣&lt;JP&gt;"><icon image="items\icon_shuanggujian-hd.png" /><description>&lt;EN&gt;Yin-Yang Swords
+
+A paired swords owned by Liu Bei. The male sword is 3 feet 7 inches in Length and the female on 3 feet 4 inches.
+
+Attack +90, Speed +0.1, Range -10&lt;EN&gt;
+&lt;CHS&gt;双股剑
+
+双股剑，又名鸳鸯剑，是刘备的兵器。鸳剑长三尺七寸，鸯剑长三尺四寸，利可断金。
+
+攻击力+90，攻击速度+0.1，攻击范围-10&lt;CHS&gt;
+&lt;CHT&gt;雙股劍
+
+雙股劍，又名鴛鴦劍，是劉備的兵器。鴛劍長三尺七寸，鴦劍長三尺四寸，利可斷金。
+
+攻擊力+90，攻擊速度+0.1，攻擊範圍-10&lt;CHT&gt;
+&lt;JP&gt;双股剣
+
+又の名を鴛鴦剣という。劉備の武器。鴛剣は長さ3尺7寸、鴦剣は3尺4寸、金をも切り裂く。
+
+攻撃力＋90、攻撃速度＋0.1、攻撃範囲－10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+90" /><impact value="3" num="+0.1" /><impact value="5" num="-20" /></impacts><objects /></item><item itemid="9546" name="&lt;EN&gt;Zhuge's crossbow&lt;EN&gt;&lt;CHS&gt;诸葛连弩&lt;CHS&gt;&lt;CHT&gt;諸葛連弩&lt;CHT&gt;&lt;JP&gt;諸葛連弩&lt;JP&gt;"><icon image="items\icon_zhugeliannu-hd.png" /><description>&lt;EN&gt;Zhuge's crossbow
+
+A powerful crossbow invented by Zhuge Liang. It can launch 10 arrows in a row at one time.
+
+Attack +90, Speed +0.2, Range -16&lt;EN&gt;
+&lt;CHS&gt;诸葛连弩
+
+诸葛亮制作的一种弩，威力巨大，能连续发射十只箭矢。
+
+攻击力+90，攻击速度+0.2，攻击范围-16&lt;CHS&gt;
+&lt;CHT&gt;諸葛連弩
+
+諸葛亮製作的一種弩，威力巨大，能連續發射十隻箭矢。
+
+攻擊力+90，攻擊速度-0.2，攻擊範圍-16&lt;CHT&gt;
+&lt;JP&gt;諸葛連弩
+
+諸葛亮が考案した弩。威力があり10本の矢を連続発射できる。
+
+攻撃力＋90、攻撃速度＋0.2、攻撃範囲－16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+90" /><impact value="3" num="+0.2" /><impact value="5" num="-32" /></impacts><objects /></item><item itemid="9548" name="&lt;EN&gt;Fierce Dragon&lt;EN&gt;&lt;CHS&gt;龙胆枪&lt;CHS&gt;&lt;CHT&gt;龍膽槍&lt;CHT&gt;&lt;JP&gt;龍胆槍&lt;JP&gt;"><icon image="items\icon_longdanqiang-hd.png" /><description>&lt;EN&gt;Fierce Dragon
+
+he powerful spear belongs to Zhao Yun. It is believed to have dragon's soul sealed in it.
+
+Attack +50, Speed -0.1, Range +16&lt;EN&gt;
+&lt;CHS&gt;龙胆枪
+
+带有一种称为龙胆装饰的枪，其威力也是非同一般。
+
+攻击力+50，攻击速度-0.1，攻击范围+16&lt;CHS&gt;
+&lt;CHT&gt;龍膽槍
+
+帶有一種稱為龍膽裝飾的槍，其威力也是非同一般。
+
+攻擊力+50，攻擊速度-0.1，攻擊範圍+16&lt;CHT&gt;
+&lt;JP&gt;龍胆槍
+
+龍胆と呼ばれる装飾を施した槍。驚異的な威力を発揮する。
+
+攻撃力＋50、攻撃速度－0.1、攻撃範囲＋16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+50" /><impact value="3" num="-0.1" /><impact value="5" num="+32" /></impacts><objects /></item><item itemid="9550" name="&lt;EN&gt;Ancestral Broadsword&lt;EN&gt;&lt;CHS&gt;古锭刀&lt;CHS&gt;&lt;CHT&gt;古錠刀&lt;CHT&gt;&lt;JP&gt;古錠刀&lt;JP&gt;"><icon image="items\icon_gudiandao-hd.png" /><description>&lt;EN&gt;Ancestral Broadsword
+
+An ancient weapon forged by the craftsman in the southeast. It has curvy tip and is extremely sharp.
+
+Attack +20, Speed +0.1&lt;EN&gt;
+&lt;CHS&gt;古锭刀
+
+从古代的江南地区流传而来，头部带有弯曲的长刀，非常锋利。
+
+攻击力+20，攻击速度+0.1&lt;CHS&gt;
+&lt;CHT&gt;古錠刀
+
+從古代的江南地區流傳而來，頭部帶有彎曲的長刀，非常鋒利。
+
+攻擊力+20，攻擊速度+0.1&lt;CHT&gt;
+&lt;JP&gt;古錠刀
+
+古来より江南地方に伝わる頭部が湾曲した長刀、非常に鋭利。
+
+攻撃力＋20、攻撃独度＋0.1&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+20" /><impact value="3" num="+0.1" /></impacts><objects /></item><item itemid="9552" name="&lt;EN&gt;Seven Star Sword&lt;EN&gt;&lt;CHS&gt;七星宝刀&lt;CHS&gt;&lt;CHT&gt;七星寶刀&lt;CHT&gt;&lt;JP&gt;七星宝刀&lt;JP&gt;"><icon image="items\icon_qixingbaodao-hd.png" /><description>&lt;EN&gt;Seven Star Sword
+
+Possessed by Wang Yun. Cao Cao used to borrow it to assassinate Dong Zhuo.
+
+Attack +90&lt;EN&gt;
+&lt;CHS&gt;七星宝刀
+
+原为王允所有，后曹操刺杀董卓时，向王允借此刀行刺董卓。
+
+攻击力+90&lt;CHS&gt;
+&lt;CHT&gt;七星寶刀
+
+原為王允所有，後曹操刺殺董卓時，向王允借此刀行刺董卓。
+
+攻擊力+90&lt;CHT&gt;
+&lt;JP&gt;七星宝刀
+
+元は王允が所有、曹操が董卓を討つ際に、この刀を王允から借り受けた。
+
+攻撃力＋90&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+90" /></impacts><objects /></item><item itemid="9554" name="&lt;EN&gt;Li Guang's Bow&lt;EN&gt;&lt;CHS&gt;李广弓&lt;CHS&gt;&lt;CHT&gt;李廣弓&lt;CHT&gt;&lt;JP&gt;李広弓&lt;JP&gt;"><icon image="items\icon_liguanggong-hd.png" /><description>&lt;EN&gt;Li Guang's Bow
+
+Believed to be the weapon of Li Guang, the Flying General. The powerful shots from this bow can pierce into rocks.
+
+Attack +60&lt;EN&gt;
+&lt;CHS&gt;李广弓
+
+飞将军李广使用过的弓，其力道十足，据说一箭可射穿石头。
+
+攻击力+60&lt;CHS&gt;
+&lt;CHT&gt;李廣弓
+
+飛將軍李廣使用過的弓，其力道十足，據說一箭可射穿石頭。
+
+攻擊力+60&lt;CHT&gt;
+&lt;JP&gt;李広弓
+
+李広が使用した弓、力強く石をも穿つとされる。
+
+攻撃力＋60&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+60" /></impacts><objects /></item><item itemid="9556" name="&lt;EN&gt;Feather Fan&lt;EN&gt;&lt;CHS&gt;羽扇&lt;CHS&gt;&lt;CHT&gt;羽扇&lt;CHT&gt;&lt;JP&gt;羽扇&lt;JP&gt;"><icon image="items\icon_yushan-hd.png" /><description>&lt;EN&gt;Feather Fan
+
+Made by swan-leather, it's the favorite item of Zhuge Liang's.
+
+Attack +70, Speed +0.1, Range -10&lt;EN&gt;
+&lt;CHS&gt;羽扇
+
+诸葛亮使用的扇子，以柔软的羽毛制作而成。
+
+攻击力+70，攻击速度+0.1，攻击范围-10&lt;CHS&gt;
+&lt;CHT&gt;羽扇
+
+諸葛亮使用的扇子，以柔軟的羽毛製作而成。
+
+攻擊力+70，攻擊速度+0.1，攻擊範圍-10&lt;CHT&gt;
+&lt;JP&gt;羽扇
+
+諸葛亮が使用した扇。柔らかな羽毛でできている。
+
+攻撃力＋70、攻撃速度＋0.1、攻撃範囲－10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+70" /><impact value="3" num="+0.1" /><impact value="5" num="-20" /></impacts><objects /></item><item itemid="9558" name="&lt;EN&gt;Mace&lt;EN&gt;&lt;CHS&gt;狼牙锤&lt;CHS&gt;&lt;CHT&gt;狼牙錘&lt;CHT&gt;&lt;JP&gt;狼牙錘&lt;JP&gt;"><icon image="items\icon_langyachui-hd.png" /><description>&lt;EN&gt;Mace
+
+This heavy spiked hammer is the best weapon for close fighting.
+
+Attack +80, Speed -0.2&lt;EN&gt;
+&lt;CHS&gt;狼牙锤
+
+锤为正圆形，分为前后两部。前部为狼牙状，上有寸长铁钉若干，钉头向前，极为锋利。
+
+攻击力+80，攻击速度-0.2&lt;CHS&gt;
+&lt;CHT&gt;狼牙錘
+
+錘為正圓形，分為前後兩部。前部為狼牙狀，上有寸長鐵釘若干，釘頭向前，極為鋒利。
+
+攻擊力+80，攻擊速度-0.2&lt;CHT&gt;
+&lt;JP&gt;狼牙錘
+
+錘は円形で、前後2つから成る。前部は狼の牙の様な鉄釘が埋め込
+まれており、非常に鋭利。
+
+攻撃力＋80、攻撃速度－0.2&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+80" /><impact value="3" num="-0.2" /></impacts><objects /></item><item itemid="9560" name="&lt;EN&gt;Huang Zhong's Bow&lt;EN&gt;&lt;CHS&gt;黄忠弓&lt;CHS&gt;&lt;CHT&gt;黄忠弓&lt;CHT&gt;&lt;JP&gt;黄忠弓&lt;JP&gt;"><icon image="items\icon_yangyoujigong-hd.png" /><description>&lt;EN&gt;Huang Zhong's Bow
+
+Said to be used by Yang Youji, the greatest archer in history. The accuracy and range of this bow are incredible.
+
+Attack +70, Range +24&lt;EN&gt;
+&lt;CHS&gt;黄忠弓
+
+神射手黄忠使用的弓，准头和射程都非常恐怖。
+
+攻击力+70，攻击范围+24&lt;CHS&gt;
+&lt;CHT&gt;黃忠弓
+
+神射手黃忠使用的弓，準頭和射程都非常恐怖。
+
+攻擊力+70，攻擊範圍+24&lt;CHT&gt;
+&lt;JP&gt;黄忠弓
+
+弓の名手黄忠が使用した弓。非常に正確で射程距離も驚異的。
+
+攻撃力＋70、攻撃範囲＋24&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+70" /><impact value="5" num="+48" /></impacts><objects /></item><item itemid="9562" name="&lt;EN&gt;Ettin Axe&lt;EN&gt;&lt;CHS&gt;双刃斧&lt;CHS&gt;&lt;CHT&gt;雙刃斧&lt;CHT&gt;&lt;JP&gt;双刃斧&lt;JP&gt;"><icon image="items\icon_shuangrenfu-hd.png" /><description>&lt;EN&gt;Ettin Axe
+
+Huge axe with dual axe blades on both tips. It is believed to be wielded by Xu Huang.
+
+Attack +50, Speed -0.1&lt;EN&gt;
+&lt;CHS&gt;双刃斧
+
+巨大的斧头，据说曹操手下猛将徐晃使用的正是此斧，杀伤力巨大。
+
+攻击力+50，攻击速度-0.1&lt;CHS&gt;
+&lt;CHT&gt;雙刃斧
+
+巨大的斧頭，據說曹操手下猛將徐晃使用的正是此斧，殺傷力巨大。
+
+攻擊力+50，攻擊速度-0.1&lt;CHT&gt;
+&lt;JP&gt;双刃斧
+
+巨大な斧。曹操の部下徐晃が使用したと伝わる。殺傷性が高い。
+
+攻撃力＋60、攻撃速度－0.1&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+50" /><impact value="3" num="-0.1" /></impacts><objects /></item><item itemid="118720" name="&lt;EN&gt;Hook of Wu&lt;EN&gt;&lt;CHS&gt;吴钩&lt;CHS&gt;&lt;CHT&gt;吳鉤&lt;CHT&gt;&lt;JP&gt;呉鈎&lt;JP&gt;"><icon image="items\icon_wugou-hd.png" /><description>&lt;EN&gt;Hook of Wu
+
+The legendary hook made as a curved wing, very easy to handle.
+
+Attack +20, Range +10&lt;EN&gt;
+&lt;CHS&gt;吴钩
+
+的“吴钩”，是刀身呈曲翘状，具有适合劈砍的构造。曲刀由刀首、刀身、护手和刀柄所构成。
+
+攻击力+20，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;吳鉤
+
+相傳的“吳鉤”，是刀身呈曲翹狀，具有適合劈砍的構造。曲刀由刀首、刀身、護手和刀柄所構成。
+
+攻擊力+20，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;呉鈎
+
+伝説の「呉鈎」は、刀身が湾曲し切り落とすのに適した構造となっている。曲刀は刀首、刀身、つば、柄から成る。
+
+攻撃力＋20、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+20" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="118722" name="&lt;EN&gt;Jade Hammer&lt;EN&gt;&lt;CHS&gt;丽玉锤&lt;CHS&gt;&lt;CHT&gt;麗玉錘&lt;CHT&gt;&lt;JP&gt;麗玉錘&lt;JP&gt;"><icon image="items\icon_liyuchui-hd.png" /><description>&lt;EN&gt;Jade Hammer
+
+Decorated with jade beads of the color of flame, the hammer seems to be burning.
+
+Attack +50, Speed -0.05&lt;EN&gt;
+&lt;CHS&gt;丽玉锤
+
+顶端镶嵌以火焰之色为主的玉珠，这些色相相互晕开，看来如玉中有火在燃烧。
+
+攻击力+50，攻击速度-0.05&lt;CHS&gt;
+&lt;CHT&gt;麗玉錘
+
+頂端鑲嵌以火焰之色為主的玉珠，這些色相相互暈開，看來如玉中有火在燃燒。
+
+攻擊力+50，攻擊速度-0.05&lt;CHT&gt;
+&lt;JP&gt;麗玉錘
+
+先端に炎の色をした玉が嵌めこまれており、まるで玉が燃えているかのように見える。
+
+攻撃力＋40、攻撃速度－0.05&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+50" /><impact value="3" num="-0.05" /></impacts><objects /></item><item itemid="118724" name="&lt;EN&gt;Axe of Ox&lt;EN&gt;&lt;CHS&gt;牛头斧&lt;CHS&gt;&lt;CHT&gt;牛頭斧&lt;CHT&gt;&lt;JP&gt;牛頭斧&lt;JP&gt;"><icon image="items\icon_niutou-hd.png" /><description>&lt;EN&gt;Axe of Ox
+
+Carved with the pattern of the Ox God, this axe cause huge damage with each strike.
+
+Attack +20, Speed -0.05, Range +10&lt;EN&gt;
+&lt;CHS&gt;牛头斧
+
+在刃口上雕刻有牛神王图案的斧头。
+
+攻击力+20，攻击速度-0.05，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;牛頭斧
+
+在刃口上雕刻有牛神王圖案的斧頭。
+
+攻擊力+20，攻擊速度-0.05，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;牛頭斧
+
+刃には牛神王の文様が刻まれている。
+
+攻撃力＋50、攻撃速度－0.05、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+20" /><impact value="3" num="-0.05" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="118726" name="&lt;EN&gt;Talon of Beast King&lt;EN&gt;&lt;CHS&gt;兽王爪&lt;CHS&gt;&lt;CHT&gt;獸王爪&lt;CHT&gt;&lt;JP&gt;獣王爪&lt;JP&gt;"><icon image="items\icon_shouwang-hd.png" /><description>&lt;EN&gt;Talon of Beast King
+
+This talon shaped weapon contains the original force of nature.
+
+Attack +80, Speed -0.1&lt;EN&gt;
+&lt;CHS&gt;兽王爪
+
+蕴涵了原始蛮力的一种武器。爪子使用了狼牙从而进一步提升攻击力。
+
+攻击力+80，攻击速度-0.1&lt;CHS&gt;
+&lt;CHT&gt;獸王爪
+
+蘊涵了原始蠻力的一種武器。爪子使用了狼牙從而進一步提升攻擊力。
+
+攻擊力+80，攻擊速度-0.1&lt;CHT&gt;
+&lt;JP&gt;獣王爪
+
+太古の力を秘めた武器。狼牙により攻撃力がアップしている。
+
+攻撃力＋80、攻撃速度－0.1&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+80" /><impact value="3" num="-0.1" /></impacts><objects /></item><item itemid="118728" name="&lt;EN&gt;Fang of Kylin&lt;EN&gt;&lt;CHS&gt;麒麟牙&lt;CHS&gt;&lt;CHT&gt;麒麟牙&lt;CHT&gt;&lt;JP&gt;麒麟牙&lt;JP&gt;"><icon image="items\icon_qilinya-hd.png" /><description>&lt;EN&gt;Fang of Kylin
+
+Unique blade made from the fang of the holy beast, Kylin.
+
+Attack +100, Speed +0.1, Range -16&lt;EN&gt;
+&lt;CHS&gt;麒麟牙
+
+使用传说中圣兽麒麟的獠牙制作而成的名刀。
+
+攻击力+100，攻击速度+0.1，攻击范围-16&lt;CHS&gt;
+&lt;CHT&gt;麒麟牙
+
+使用傳說中聖獸麒麟的獠牙製作而成的名刀。
+
+攻擊力+100，攻擊速度+0.1，攻擊範圍-16&lt;CHT&gt;
+&lt;JP&gt;麒麟牙
+
+伝説上の麒麟を模して造られた名刀。
+
+攻撃力＋100、攻撃速度＋0.1、攻撃範囲－16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+100" /><impact value="3" num="+0.1" /><impact value="5" num="-32" /></impacts><objects /></item><item itemid="118730" name="&lt;EN&gt;Thunder Axe&lt;EN&gt;&lt;CHS&gt;惊雷斧&lt;CHS&gt;&lt;CHT&gt;驚雷斧&lt;CHT&gt;&lt;JP&gt;驚雷斧&lt;JP&gt;"><icon image="items\icon_jingleifu-hd.png" /><description>&lt;EN&gt;Thunder Axe
+
+This extremely heavy axe roars as thunder with each strike.
+
+Attack +30, Range +10&lt;EN&gt;
+&lt;CHS&gt;惊雷斧
+
+每一击都非常重的一种斧子，舞之声如雷震，因此称为惊雷斧。
+
+攻击力+30，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;驚雷斧
+
+每一擊都非常重的一種斧子，舞之聲如雷震，因此稱為驚雷斧。
+
+攻擊力+30，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;驚雷斧
+
+一撃一撃、大きな打撃力を持つ。雷鳴の様な音を伴う。
+
+攻撃力＋30、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+30" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="118732" name="&lt;EN&gt;Talons of Flying Tiger&lt;EN&gt;&lt;CHS&gt;飞天虎爪&lt;CHS&gt;&lt;CHT&gt;飛天虎爪&lt;CHT&gt;&lt;JP&gt;飛天虎爪&lt;JP&gt;"><icon image="items\icon_feitianhuzhua-hd.png" /><description>&lt;EN&gt;Talons of Flying Tiger
+
+Shaped as the tiger's talons and linked by chains, it's portable but dangerous.
+
+Attack +50, Speed +0.1, Range -10&lt;EN&gt;
+&lt;CHS&gt;飞天虎爪
+
+两头似匕首又似钩，成虎爪形状，用锁链相连，轻便且杀伤力极高。
+
+攻击力+50，攻击速度+0.1，攻击范围-10&lt;CHS&gt;
+&lt;CHT&gt;飛天虎爪
+
+兩頭似匕首又似鉤，成虎爪形狀，用鎖鏈相連，輕便且殺傷力極高。
+
+攻擊力+50，攻擊速度+0.1，攻擊範圍-10&lt;CHT&gt;
+&lt;JP&gt;飛天虎爪
+
+2本の虎の爪の形をした鈎で鎖でつながっている。軽量で殺傷力が極めて高い。
+
+攻撃力＋50、攻撃速度＋0.1、攻撃範囲－10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+50" /><impact value="5" num="-20" /><impact value="3" num="+0.1" /></impacts><objects /></item><item itemid="118734" name="&lt;EN&gt;Claw of Rosefinch&lt;EN&gt;&lt;CHS&gt;朱雀爪&lt;CHS&gt;&lt;CHT&gt;朱雀爪&lt;CHT&gt;&lt;JP&gt;朱雀爪&lt;JP&gt;"><icon image="items\icon_zhuquezhua-hd.png" /><description>&lt;EN&gt;Claw of Rosefinch
+
+This claw has the same shape and power as the Rosefinch's.
+
+Attack +140, Range -16&lt;EN&gt;
+&lt;CHS&gt;朱雀爪
+
+外形类似神鸟朱雀的爪子，有着非同一般的威力。
+
+攻击力+140，攻击范围-16&lt;CHS&gt;
+&lt;CHT&gt;朱雀爪
+
+外形類似神鳥朱雀的爪子，有著非同一般的威力。
+
+攻擊力+140，攻擊範圍-16&lt;CHT&gt;
+&lt;JP&gt;朱雀爪
+
+朱雀の形をしており、朱雀の爪のように鋭く威力がある。
+
+攻撃力＋140、攻撃範囲－16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+140" /><impact value="5" num="-32" /></impacts><objects /></item><item itemid="118736" name="&lt;EN&gt;Halberds of Xiang Yu&lt;EN&gt;&lt;CHS&gt;项羽戟&lt;CHS&gt;&lt;CHT&gt;項羽戟&lt;CHT&gt;&lt;JP&gt;項羽戟&lt;JP&gt;"><icon image="items\icon_xiangyuji-hd.png" /><description>&lt;EN&gt;Halberds of Xiang Yu
+
+Only mighty heroes can handle the powerful duel halberds.
+
+Attack +40, Speed -0.05, Range +10&lt;EN&gt;
+&lt;CHS&gt;项羽戟
+
+只有那些力拔山兮、气盖山河的豪杰才能使用的强力双戟。
+
+攻击力+40，攻击速度-0.05，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;項羽戟
+
+只有那些力拔山兮、氣蓋山河的豪傑才能使用的強力雙戟。
+
+攻擊力+40，攻擊速度-0.05，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;項羽戟
+
+天地を揺るがす程の豪傑のみが使用できる強力な双戟。
+
+攻撃力＋40、攻撃速度－0.05、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+40" /><impact value="3" num="-0.05" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="118738" name="&lt;EN&gt;Fang Axe&lt;EN&gt;&lt;CHS&gt;牙断斧&lt;CHS&gt;&lt;CHT&gt;牙斷斧&lt;CHT&gt;&lt;JP&gt;牙断斧&lt;JP&gt;"><icon image="items\icon_yaduan-hd.png" /><description>&lt;EN&gt;Fang Axe
+
+Sharp as the wolf's fang, it requires prodigious strength to wield it.
+
+Attack +70, Range -10&lt;EN&gt;
+&lt;CHS&gt;牙断斧
+
+如狼牙一般锋利的斧子，使用这种斧子需要很大的力气。
+
+攻击力+70，攻击范围-10&lt;CHS&gt;
+&lt;CHT&gt;牙斷斧
+
+如狼牙一般鋒利的斧子，使用這種斧子需要很大的力氣。
+
+攻擊力+70，攻擊範圍-10&lt;CHT&gt;
+&lt;JP&gt;牙断斧
+
+狼の牙の様に鋭い斧。力がないとこの斧は使いこなせない。
+
+攻撃力＋70、攻撃範囲－10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+70" /><impact value="5" num="-20" /></impacts><objects /></item><item itemid="134815" name="&lt;EN&gt;Poisoned Dragon Bow&lt;EN&gt;&lt;CHS&gt;毒龙铁胎弓&lt;CHS&gt;&lt;CHT&gt;毒龍鐵胎弓&lt;CHT&gt;&lt;JP&gt;毒龍鉄胎弓&lt;JP&gt;"><icon image="items\icon_dulongtietaigong-hd.png" /><description>&lt;EN&gt;Poisoned Dragon Bow
+
+It was said that this mort was refined by immersing in the Pool of Five Poisons. Each arrow of mort was highly toxic. 
+
+Attack +40, Speed -0.1, Range +13&lt;EN&gt;
+&lt;CHS&gt;毒龙铁胎弓
+
+传说此弓曾在五毒池中浸泡炼制而成，每一发箭矢都带有剧毒。
+
+攻击力+40，攻击速度-0.1，攻击范围+13&lt;CHS&gt;
+&lt;CHT&gt;毒龍鐵胎弓
+
+傳說此弓曾在五毒池中浸泡煉製而成，每一發箭矢都帶有劇毒。
+
+攻擊力+40，攻擊速度-0.1，攻擊範圍+13&lt;CHT&gt;
+&lt;JP&gt;毒龍鉄胎弓
+
+五毒池に浸けて作られた弓で、放つ矢には猛毒が付着。
+
+攻撃力＋40、攻撃速度－0.1、攻撃範囲＋13&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+40" /><impact value="3" num="-0.1" /><impact value="5" num="+26" /></impacts><objects /></item><item itemid="134817" name="&lt;EN&gt;Fire Bow of Zhu Rong&lt;EN&gt;&lt;CHS&gt;祝融神火弓&lt;CHS&gt;&lt;CHT&gt;祝融神火弓&lt;CHT&gt;&lt;JP&gt;祝融神火弓&lt;JP&gt;"><icon image="items\icon_dulongtietaigong-hd.png" /><description>&lt;EN&gt;Fire Bow of Zhu Rong
+
+The weapon of the God of Fire, Zhu Rong. Its arrows had fire when sent out. It was a relic in ancient ages. 
+
+Attack +100, Speed -0.2, Range +28&lt;EN&gt;
+&lt;CHS&gt;祝融神火弓
+
+火神祝融之兵刃，箭矢射出带火，乃上古神器。
+
+攻击力+100，攻击速度-0.2，攻击范围+28&lt;CHS&gt;
+&lt;CHT&gt;祝融神火弓
+
+火神祝融之兵刃，箭矢射出帶火，乃上古神器。
+
+攻擊力+100，攻擊速度-0.2，攻擊範圍+28&lt;CHT&gt;
+&lt;JP&gt;祝融神火弓
+
+火の神、祝融の武器。矢は火を放つ。
+
+攻撃力＋100、攻撃速度－0.2、攻撃範囲＋28&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+100" /><impact value="3" num="-0.2" /><impact value="5" num="+56" /></impacts><objects /></item><item itemid="134819" name="&lt;EN&gt;Sable Serpent Whip&lt;EN&gt;&lt;CHS&gt;玄武神鞭&lt;CHS&gt;&lt;CHT&gt;玄武神鞭&lt;CHT&gt;&lt;JP&gt;玄武神鞭&lt;JP&gt;"><icon image="items\icon_xuanwushenbian-hd.png" /><description>&lt;EN&gt;Sable Serpent Whip
+
+A nine-section-whip, having the similar power with therion sable serpent, hybrid of snake and turtle. 
+
+Attack +110, Speed +0.1, Range -13&lt;EN&gt;
+&lt;CHS&gt;玄武神鞭
+
+拥有类似于蛇龟两者合体的圣兽玄武一般强大威力的九节鞭。
+
+攻击力+110，攻击速度+0.1，攻击范围-13&lt;CHS&gt;
+&lt;CHT&gt;玄武神鞭
+
+擁有類似於蛇龜兩者合體的聖獸玄武一般強大威力的九節鞭。
+
+攻擊力+110，攻擊速度+0.1，攻擊範圍+13&lt;CHT&gt;
+&lt;JP&gt;玄武神鞭
+
+蛇と亀の姿をした聖獣玄武の様な強大な威力を持つ九節の鞭。
+
+攻撃力＋110、攻撃速度＋0.1、攻撃範囲＋13&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+110" /><impact value="3" num="+0.1" /><impact value="5" num="-26" /></impacts><objects /></item><item itemid="134821" name="&lt;EN&gt;Cold Jade Sword&lt;EN&gt;&lt;CHS&gt;寒玉剑&lt;CHS&gt;&lt;CHT&gt;寒玉劍&lt;CHT&gt;&lt;JP&gt;寒玉剣&lt;JP&gt;"><icon image="items\icon_xuanwushenbian-hd.png" /><description>&lt;EN&gt;Cold Jade Sword
+
+A precious sword made up of cold jade of ice valley, changing the reikis into cold waves, and adding cold wounds when killing enemies. 
+
+Attack +110, Range -10&lt;EN&gt;
+&lt;CHS&gt;寒玉剑
+
+以冰谷寒玉所制的宝剑，能化光灵的灵气为玄凛寒波，在杀敌之时增添寒气之伤。
+
+攻击力+110，攻击范围-10&lt;CHS&gt;
+&lt;CHT&gt;寒玉劍
+
+以冰穀寒玉所制的寶劍，能化光靈的靈氣為玄凜寒波，在殺敵之時增添寒氣之傷。
+
+攻擊力+110，攻擊範圍-10&lt;CHT&gt;
+&lt;JP&gt;寒玉剣
+
+氷谷寒玉で作られた宝剣。光を玄凛寒波に変え、敵に寒さによるダメージを与える。
+
+攻撃力＋110、攻撃範囲－10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+110" /><impact value="5" num="-20" /></impacts><objects /></item></itemtype><itemtype itemtypeid="1" itemtypename="Equipment"><item itemid="9564" name="&lt;EN&gt;24 Chapters of War&lt;EN&gt;&lt;CHS&gt;兵法二十四篇&lt;CHS&gt;&lt;CHT&gt;兵法二十四篇&lt;CHT&gt;&lt;JP&gt;兵法二十四篇&lt;JP&gt;"><icon image="items\icon_bingfa24pian-hd.png" /><description>&lt;EN&gt;24 Chapters of War
+
+Zhuge Liang's book on war which he entrusted to Jiang Wei just before his death.
+
+Range +12&lt;EN&gt;
+&lt;CHS&gt;兵法二十四篇
+
+据说为诸葛亮晚年时候所著，上面记载了诸葛亮几十年来行军打仗的经验。
+
+攻击范围+12&lt;CHS&gt;
+&lt;CHT&gt;兵法二十四篇
+
+據說為諸葛亮晚年時候所著，上面記載了諸葛亮幾十年來行軍打仗的經驗。
+
+攻擊範圍+12&lt;CHT&gt;
+&lt;JP&gt;兵法二十四篇
+
+諸葛亮が晩年に記したと伝えられる。諸葛亮の数十年来の軍事経験が記されている。
+
+攻撃範囲＋12&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+24" /></impacts><objects /></item><item itemid="9566" name="&lt;EN&gt;Map of Shu&lt;EN&gt;&lt;CHS&gt;西蜀地形图&lt;CHS&gt;&lt;CHT&gt;西蜀地形圖&lt;CHT&gt;&lt;JP&gt;西蜀地形図&lt;JP&gt;"><icon image="items\icon_xishudixingtu-hd.png" /><description>&lt;EN&gt;Map of Shu
+
+Given to Liu Bei by Zhang Song, helped Liu Bei in his invasion to this land.
+
+Attack +10, Range +16&lt;EN&gt;
+&lt;CHS&gt;西蜀地形图
+
+张松送与刘备助刘备领军进蜀，名曰“霸业可成，汉室可兴也”。
+
+攻击力+10，攻击范围+16&lt;CHS&gt;
+&lt;CHT&gt;西蜀地形圖
+
+張松送與劉備助劉備領軍進蜀，名曰“霸業可成，漢室可興也”。
+
+攻擊力+10，攻擊範圍+16&lt;CHT&gt;
+&lt;JP&gt;西蜀地形図
+
+劉備が蜀に進軍する際に、張松が劉備に送った。
+
+攻撃力＋10、攻撃範囲＋16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+10" /><impact value="5" num="+32" /></impacts><objects /></item><item itemid="9568" name="&lt;EN&gt;Art of War&lt;EN&gt;&lt;CHS&gt;孙子兵法&lt;CHS&gt;&lt;CHT&gt;孫子兵法&lt;CHT&gt;&lt;JP&gt;孫子兵法&lt;JP&gt;"><icon image="items\icon_sunzibingfa-hd.png" /><description>&lt;EN&gt;Art of War
+
+It is the classic masterpiece of war, written by Sun Tzu, the most celebrated militarist of all time.
+
+Speed -0.2, Range +40&lt;EN&gt;
+&lt;CHS&gt;孙子兵法
+
+从战国时期起就风靡流传的军事著作,乃兵圣孙武所著。
+
+攻击速度-0.2，攻击范围+40&lt;CHS&gt;
+&lt;CHT&gt;孫子兵法
+
+從戰國時期起就風靡流傳的軍事著作,乃兵聖孫武所著。
+
+攻擊速度-0.2，攻擊範圍+40&lt;CHT&gt;
+&lt;JP&gt;孫子兵法
+
+戦国時代から伝わる軍事書、兵聖孫武の著。
+
+攻撃速度－0.2、攻撃範囲＋40&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="-0.2" /><impact value="5" num="+80" /></impacts><objects /></item><item itemid="10457" name="&lt;EN&gt;Bronze Sparrow&lt;EN&gt;&lt;CHS&gt;铜雀&lt;CHS&gt;&lt;CHT&gt;銅雀&lt;CHT&gt;&lt;JP&gt;銅雀&lt;JP&gt;"><icon image="items\icon_tongque-hd.png" /><description>&lt;EN&gt;Bronze Sparrow
+
+Ancient artifact acquired by Cao Cao after capturing Ji Province.
+
+Speed +0.15, Range +10&lt;EN&gt;
+&lt;CHS&gt;铜雀
+
+曹操平定冀州后，挖掘出来的铜制饰物。
+
+攻击速度+0.15，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;銅雀
+
+曹操平定冀州後，挖掘出來的銅制飾物。
+
+攻擊速度+0.15，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;銅雀
+
+曹操が冀州平定した際に、掘り出された銅製の装飾品。
+
+攻撃速度＋0.15、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.15" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="10459" name="&lt;EN&gt;The Art of War by Wutzu&lt;EN&gt;&lt;CHS&gt;吴子兵法&lt;CHS&gt;&lt;CHT&gt;吳子兵法&lt;CHT&gt;&lt;JP&gt;呉子兵法&lt;JP&gt;"><icon image="items\icon_wuzibingfa-hd.png" /><description>&lt;EN&gt;The Art of War by Wutzu
+
+Written by the famous militarist Wutzu from the Warring States Period. Wutzu discussed his views on war in this masterpiece.
+
+Attack -10, Speed +0.2, Range +16&lt;EN&gt;
+&lt;CHS&gt;吴子兵法
+
+由战国名将吴起所著，主要论述了战争观问题。
+
+攻击力-10，攻击速度+0.2，攻击范围+16&lt;CHS&gt;
+&lt;CHT&gt;吳子兵法
+
+由戰國名將吳起所著，主要論述了戰爭觀問題。
+
+攻擊力-10，攻擊速度+0.2，攻擊範圍+16&lt;CHT&gt;
+&lt;JP&gt;呉子兵法
+
+戦国の名将呉起の著、主に戦争観が論じられている。
+
+攻撃力－10、攻撃速度＋0.2、攻撃範囲＋16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-10" /><impact value="3" num="+0.2" /><impact value="5" num="+32" /></impacts><objects /></item><item itemid="10461" name="&lt;EN&gt;Stratagems of the Warring Stats&lt;EN&gt;&lt;CHS&gt;战国策&lt;CHS&gt;&lt;CHT&gt;戰國策&lt;CHT&gt;&lt;JP&gt;戦国策&lt;JP&gt;"><icon image="items\icon_zhanguoce-hd.png" /><description>&lt;EN&gt;Stratagems of the Warring Stats
+
+A historical work depicts the political views and strategies of the diplomats during this era.
+
+Range +24&lt;EN&gt;
+&lt;CHS&gt;战国策
+
+是一部国别体史书，主要记述了战国时期纵横家的政治主张和策略。
+
+攻击范围+24&lt;CHS&gt;
+&lt;CHT&gt;戰國策
+
+是一部國別體史書，主要記述了戰國時期縱橫家的政治主張和策略。
+
+攻擊範圍+24&lt;CHT&gt;
+&lt;JP&gt;戦国策
+
+国別の歴史書。主に戦国時代の縦横家の政治思想と策略が記されている。
+
+攻撃範囲＋24&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+48" /></impacts><objects /></item><item itemid="10463" name="&lt;EN&gt;Imperial Seal&lt;EN&gt;&lt;CHS&gt;传国玉玺&lt;CHS&gt;&lt;CHT&gt;傳國玉璽&lt;CHT&gt;&lt;JP&gt;伝国玉璽&lt;JP&gt;"><icon image="items\icon_chuanguoyuxi-hd.png" /><description>&lt;EN&gt;Imperial Seal
+
+A seal that is made of the Jade of Harmony. It's been passed on since the Qin Dynasty. It fell into Sun Jian's hand.
+
+Speed +0.1, Range +40&lt;EN&gt;
+&lt;CHS&gt;传国玉玺
+
+为秦以后历代帝王相传之印玺，取材“和氏璧”。在十八路诸侯围攻洛阳时被孙坚获得。
+
+攻击速度+0.1，攻击范围+40&lt;CHS&gt;
+&lt;CHT&gt;傳國玉璽
+
+為秦以後歷代帝王相傳之印璽，取材“和氏璧”。在十八路諸侯圍攻洛陽時被孫堅獲得。
+
+攻擊速度+0.1，攻擊範圍+40&lt;CHT&gt;
+&lt;JP&gt;伝国玉璽
+
+秦朝以来、歴代王朝が伝えてきた「和氏璧」でできた天子の印章。18諸侯が洛陽を包囲した際、孫堅が取得。
+
+攻撃速度＋0.1、攻撃範囲＋40&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.1" /><impact value="5" num="+80" /></impacts><objects /></item><item itemid="10465" name="&lt;EN&gt;Seven Star Lamp&lt;EN&gt;&lt;CHS&gt;七星灯&lt;CHS&gt;&lt;CHT&gt;七星燈&lt;CHT&gt;&lt;JP&gt;七星灯&lt;JP&gt;"><icon image="items\icon_qixingdeng-hd.png" /><description>&lt;EN&gt;Seven Star Lamp
+
+The lamp used by Zhuge Liang to extend his life-span at Wu Zhang Yuan.
+
+Range +32&lt;EN&gt;
+&lt;CHS&gt;七星灯
+
+孔明在五丈原，为了延续自己的生命而点的灯:“若七日内主灯不灭，吾寿可增一纪”（一纪为12年）。 
+
+攻击范围+32&lt;CHS&gt;
+&lt;CHT&gt;七星燈
+
+孔明在五丈原，為了延續自己的生命而點的燈:“若七日內主燈不滅，吾壽可增一紀”（一紀為12年）。 
+
+攻擊範圍+32&lt;CHT&gt;
+&lt;JP&gt;七星灯
+
+孔明が五丈原で自らの延命の為に点した灯。「7日間、灯が消えなければ、12年寿命が延びる。」
+
+攻撃範囲＋32&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+64" /></impacts><objects /></item><item itemid="10467" name="&lt;EN&gt;Meng De's War Manual&lt;EN&gt;&lt;CHS&gt;孟德新书&lt;CHS&gt;&lt;CHT&gt;孟德新書&lt;CHT&gt;&lt;JP&gt;孟徳新書&lt;JP&gt;"><icon image="items\icon_mengdexinshu-hd.png" /><description>&lt;EN&gt;Meng De's War Manual
+
+A book on the art of war, said to be written by Cao Cao. He supposedly burned the book after it was ridiculed by Zhang Song.
+
+Speed +0.2&lt;EN&gt;
+&lt;CHS&gt;孟德新书
+
+据说是由曹操编写的一本兵法书，后来因为张松的嘲笑而被曹操自己烧掉了。
+
+攻击速度+0.2&lt;CHS&gt;
+&lt;CHT&gt;孟德新書
+
+據說是由曹操編寫的一本兵法書，後來因為張松的嘲笑而被曹操自己燒掉了。
+
+攻擊速度+0.2&lt;CHT&gt;
+&lt;JP&gt;孟徳新書
+
+曹操が編纂した兵法書。曹操は張松に嘲笑され、この書を焼き捨てた。
+
+攻撃速度＋0.2&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.2" /></impacts><objects /></item><item itemid="11549" name="&lt;EN&gt;Way of Peace&lt;EN&gt;&lt;CHS&gt;太平要术&lt;CHS&gt;&lt;CHT&gt;太平要術&lt;CHT&gt;&lt;JP&gt;太平要術&lt;JP&gt;"><icon image="items\icon_taipingyaoshu-hd.png" /><description>&lt;EN&gt;Way of Peace
+
+The Leader of the Ju Lu revolution acquired this mystic work from the immortal of the South accidentally.
+
+Attack -30, Speed +0.2,Range +16&lt;EN&gt;
+&lt;CHS&gt;太平要术
+
+传说中的巨鹿郡起义首领张角入山采药时，南华老仙传授给他的奇书。
+
+攻击力-30，攻击速度+0.2，攻击范围+16&lt;CHS&gt;
+&lt;CHT&gt;太平要術
+
+傳說中的巨鹿郡起義首領張角入山采藥時，南華老仙傳授給他的奇書。
+
+攻擊力-30，攻擊速度+0.2，攻擊範圍+16&lt;CHT&gt;
+&lt;JP&gt;太平要術
+
+巨鹿郡の蜂起の頭・張角が薬草を摘みに山に入った際、南華老仙から授かったとされる。
+
+攻撃力－30、攻撃速度＋0.2、攻撃範囲＋16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-30" /><impact value="3" num="+0.2" /><impact value="5" num="+32" /></impacts><objects /></item><item itemid="118708" name="&lt;EN&gt;Talisman of Bravery&lt;EN&gt;&lt;CHS&gt;神勇符&lt;CHS&gt;&lt;CHT&gt;神勇符&lt;CHT&gt;&lt;JP&gt;神勇札&lt;JP&gt;"><icon image="items\icon_guidaifu-hd.png" /><description>&lt;EN&gt;Talisman of Bravery
+
+Created by the great taoist Zuo Ci which can bring good luck to its owner.
+Speed +0.05, Range +9&lt;EN&gt;
+&lt;CHS&gt;神勇符
+
+此符乃道士左慈所绘的灵符之一。相传能使百邪退散，并增进百福。
+
+攻击速度+0.05，攻击范围+9&lt;CHS&gt;
+&lt;CHT&gt;神勇符
+
+此符乃道士左慈所繪的靈符之一。相傳能使百邪退散，並增進百福。
+
+攻擊速度+0.05，攻擊範圍+9&lt;CHT&gt;
+&lt;JP&gt;神勇札
+
+道士左慈がかいた御利益のあるお札。邪気を退け福を招くと伝えられる。
+
+攻撃速度＋0.05、攻撃範囲＋9&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.05" /><impact value="5" num="+18" /></impacts><objects /></item><item itemid="118710" name="&lt;EN&gt;Talisman of Ghost&lt;EN&gt;&lt;CHS&gt;鬼带符&lt;CHS&gt;&lt;CHT&gt;鬼帶符&lt;CHT&gt;&lt;JP&gt;鬼帯札&lt;JP&gt;"><icon image="items\icon_shenyongfu-hd.png" /><description>&lt;EN&gt;Talisman of Ghost
+
+Used by evil taoists to summon ghosts. Said to be owned by Zhang Lu.
+
+Attack +10, Speed+0.05&lt;EN&gt;
+&lt;CHS&gt;鬼带符
+
+恶鬼道在施展鬼法时所使用的符印。相传为张鲁所用。
+
+攻击力+10，攻击速度+0.05&lt;CHS&gt;
+&lt;CHT&gt;鬼帶符
+
+惡鬼道在施展鬼法時所使用的符印。相傳為張魯所用。
+
+攻擊力+10，攻擊速度+0.05&lt;CHT&gt;
+&lt;JP&gt;鬼帯札
+
+悪鬼道が鬼法を行う際に使用する札。張魯に使用したものと伝えられる。
+
+攻撃力＋10、攻撃速度＋0.05&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+10" /><impact value="3" num="+0.05" /></impacts><objects /></item><item itemid="118712" name="&lt;EN&gt;Jade Pendant&lt;EN&gt;&lt;CHS&gt;玉佩&lt;CHS&gt;&lt;CHT&gt;玉佩&lt;CHT&gt;&lt;JP&gt;玉佩&lt;JP&gt;"><icon image="items\icon_yupei-hd.png" /><description>&lt;EN&gt;Jade Pendant
+
+A fine crafted jade pendant which is a favorite item of noble people.
+
+Attack -20, Speed +0.2, Range +10&lt;EN&gt;
+&lt;CHS&gt;玉佩
+
+一块普通的玉佩，做工精细。达官贵人非常喜欢佩戴。
+
+攻击力-20，攻击速度+0.2，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;玉佩
+
+一塊普通的玉佩，做工精細。達官貴人非常喜歡佩戴。
+
+攻擊力-20，攻擊速度+0.2，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;玉佩
+
+普通の玉の装身具。精巧で美しく豪族貴族が好んで身に付けた。
+
+攻撃力－20、攻撃速度＋0.2、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-20" /><impact value="3" num="+0.2" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="118714" name="&lt;EN&gt;Jade Bracelet&lt;EN&gt;&lt;CHS&gt;玉镯&lt;CHS&gt;&lt;CHT&gt;玉鐲&lt;CHT&gt;&lt;JP&gt;玉鐲&lt;JP&gt;"><icon image="items\icon_yuzhuo-hd.png" /><description>&lt;EN&gt;Jade Bracelet
+
+Usually worn by female which is good to health.
+
+Speed +0.1, Range +12&lt;EN&gt;
+&lt;CHS&gt;玉镯
+
+多为女性所佩戴，长期佩戴对身体十分有益。正所谓人养玉，玉养人。
+
+攻击速度+0.1，攻击范围+12&lt;CHS&gt;
+&lt;CHT&gt;玉鐲
+
+多為女性所佩戴，長期佩戴對身體十分有益。正所謂人養玉，玉養人。
+
+攻擊速度+0.1，攻擊範圍+12&lt;CHT&gt;
+&lt;JP&gt;玉鐲
+
+多くは女性が身に付け、長期間身に付けていると健康増進につながる。
+
+攻撃速度＋0.1、攻撃範囲＋12&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.1" /><impact value="5" num="+24" /></impacts><objects /></item><item itemid="118716" name="&lt;EN&gt;Tips from Kong Ming&lt;EN&gt;&lt;CHS&gt;锦囊妙计&lt;CHS&gt;&lt;CHT&gt;錦囊妙計&lt;CHT&gt;&lt;JP&gt;錦嚢妙計&lt;JP&gt;"><icon image="items\icon_jinnangmiaoji-hd.png" /><description>&lt;EN&gt;Tips from Kong Ming
+
+The three tips left by Zhuge Liang when Liu Bei went to Jiang Dong and helped Liu Bei returned safely.
+
+Speed +0.2, Range +12&lt;EN&gt;
+&lt;CHS&gt;锦囊妙计
+
+刘备去东吴娶亲之时，诸葛亮送与刘备三个锦囊妙计，助刘备平安回到荆州。
+
+攻击速度+0.2，攻击范围+12&lt;CHS&gt;
+&lt;CHT&gt;錦囊妙計
+
+劉備去東吳娶親之時，諸葛亮送與劉備三個錦囊妙計，助劉備平安回到荊州。
+
+攻擊速度+0.2，攻擊範圍+12&lt;CHT&gt;
+&lt;JP&gt;錦嚢妙計
+
+劉備が東呉へ妻を娶りに行く際、諸葛亮は妙計を忍ばせた錦嚢3つを贈った。劉備が無事荊州に戻れたのはこのお陰。
+
+攻撃速度＋0.2、攻撃範囲＋12&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.2" /><impact value="5" num="+24" /></impacts><objects /></item><item itemid="118718" name="&lt;EN&gt;Holy Inkstone&lt;EN&gt;&lt;CHS&gt;神兽砚&lt;CHS&gt;&lt;CHT&gt;神獸硯&lt;CHT&gt;&lt;JP&gt;神獣硯&lt;JP&gt;"><icon image="items\icon_shenshouyan-hd.png" /><description>&lt;EN&gt;Holy Inkstone
+
+Fine made bronze inkstone enchased with gems.
+
+Attack +20, Range +40&lt;EN&gt;
+&lt;CHS&gt;神兽砚
+
+精心打造的青铜制砚台，上面装饰着宝石。
+
+攻击力+20，攻击范围+40&lt;CHS&gt;
+&lt;CHT&gt;神獸硯
+
+精心打造的青銅制硯臺，上面裝飾著寶石。
+
+攻擊力+20，攻擊範圍+40&lt;CHT&gt;
+&lt;JP&gt;神獣硯
+
+意匠を凝らして作られた銅製の硯。宝石で装飾されている。
+
+攻撃力＋20、攻撃範囲＋40&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+80" /><impact value="1" num="+20" /></impacts><objects /></item><item itemid="134823" name="&lt;EN&gt;Zhen Mi Pearl Ring&lt;EN&gt;&lt;CHS&gt;甄宓耳珠&lt;CHS&gt;&lt;CHT&gt;甄宓耳飾&lt;CHT&gt;&lt;JP&gt;甄宓の耳飾り&lt;JP&gt;"><icon image="items\icon_zhenmizhuer-hd.png" /><description>&lt;EN&gt;Zhen Mi Pearl Ring
+
+A jade flute once used by ZhenMi. ZhenMi was originally the wife of Ywan Shao. After Tsao Tsao conquered Yecheng, she became the wife of Tsao Pi. 
+
+Attack +10, Range +10&lt;EN&gt;
+&lt;CHS&gt;甄宓耳饰
+
+甄宓使用过的耳饰 。甄宓本为原是袁绍次子袁熙之妻，曹操攻陷邺城后成为曹丕的妻室。
+
+攻击力+10，攻击范围+10&lt;CHS&gt;
+&lt;CHT&gt;甄宓耳飾
+
+甄宓使用過的耳飾 。甄宓本為原是袁紹次子袁熙之妻，曹操攻陷鄴城後成為曹丕的妻室。
+
+攻擊力+10，攻擊範圍+10&lt;CHT&gt;
+&lt;JP&gt;甄宓の耳飾り
+
+甄宓の耳飾り。甄宓は袁紹の妻であったが、曹操が鄴城を陥落した際に曹丕の妻とされた。
+
+攻撃力＋10、攻撃範囲＋10&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+10" /><impact value="5" num="+20" /></impacts><objects /></item><item itemid="134825" name="&lt;EN&gt;Zhen Mi Jade Flute&lt;EN&gt;&lt;CHS&gt;甄宓玉笛&lt;CHS&gt;&lt;CHT&gt;甄宓玉笛&lt;CHT&gt;&lt;JP&gt;甄宓玉笛&lt;JP&gt;"><icon image="items\icon_zhenmiyudi-hd.png" /><description>&lt;EN&gt;Zhen Mi Jade Flute
+
+A pearl ring once used by ZhenMi. ZhenMi was originally the wife of Ywan Shao. After Tsao Tsao conquered Yecheng, she became the wife of Tsao Pi.
+
+Attack +80, Speed +0.2, Range -13&lt;EN&gt;
+&lt;CHS&gt;甄宓玉笛
+
+甄宓使用过的玉笛。甄宓本为袁绍之妻，曹操攻陷邺城后成为曹丕的妻室。
+
+攻击力+80，攻击速度+0.2，攻击范围-13&lt;CHS&gt;
+&lt;CHT&gt;甄宓玉笛
+
+甄宓使用過的玉笛。甄宓本為袁紹之妻，曹操攻陷鄴城後成為曹丕的妻室。
+
+攻擊力+80，攻擊速度+0.2，攻擊範圍-13&lt;CHT&gt;
+&lt;JP&gt;甄宓玉笛
+
+甄宓の玉笛。甄宓は袁紹の妻であったが、曹操が鄴城を陥落した際に曹丕の妻とされた。
+
+攻撃力＋80、攻撃速度＋0.2、攻撃範囲－13&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="+80" /><impact value="3" num="+0.2" /><impact value="5" num="-26" /></impacts><objects /></item><item itemid="134827" name="&lt;EN&gt;Four Spirits Mirror&lt;EN&gt;&lt;CHS&gt;四灵文镜 &lt;CHS&gt;&lt;CHT&gt;四靈文鏡&lt;CHT&gt;&lt;JP&gt;&lt;JP&gt;"><icon image="items\icon_zhenmiyudi-hd.png" /><description>&lt;EN&gt;Four Spirits Mirror
+
+The mirror carved with four spirits beast, green dragon, white tiger, rosefinch, sable serpent.
+
+Speed +0.1, Range +25&lt;EN&gt;
+&lt;CHS&gt;四灵文镜
+
+刻有四灵兽，青龙、白虎、朱雀、玄武在内的铜镜。
+
+攻击速度+0.1，攻击范围+25&lt;CHS&gt;
+&lt;CHT&gt;四靈文鏡
+
+刻有四靈獸，青龍、白虎、朱雀、玄武在內的銅鏡。
+
+攻擊速度+0.1，攻擊範圍+25&lt;CHT&gt;
+&lt;JP&gt;四霊文鏡
+
+青龍、白虎、朱雀、玄武が彫られた銅鏡。
+
+攻撃速度＋0.1、攻撃範囲＋25&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="+0.1" /><impact value="5" num="+50" /></impacts><objects /></item></itemtype><itemtype itemtypeid="2" itemtypename="Viecle"><item itemid="32" name="&lt;EN&gt;Hex Mark&lt;EN&gt;&lt;CHS&gt;的卢&lt;CHS&gt;&lt;CHT&gt;的盧&lt;CHT&gt;&lt;JP&gt;的盧&lt;JP&gt;"><icon image="items\icon_dilu-hd.png" /><description>&lt;EN&gt;Hex Mark
+
+Zhao Yun took it as booty from Zhang Wu and tributed it to his master Liu Bei. The horse has a white mark on the forehead.
+
+Attack -25, Range +40&lt;EN&gt;
+&lt;CHS&gt;的卢
+
+平定江夏之乱的时候，刘备的大将赵云夺了张武的一匹骏马，并将其献给刘备。此马眼下有泪槽，额上有白点。
+
+攻击力-25，攻击范围+40&lt;CHS&gt;
+&lt;CHT&gt;的盧
+
+平定江夏之亂的時候，劉備的大將趙雲奪了張武的一匹駿馬，並將其獻給劉備。此馬眼下有淚槽，額上有白點。
+
+攻擊力-25，攻擊範圍+40&lt;CHT&gt;
+&lt;JP&gt;的盧
+
+江夏の乱平定の際、趙雲は張武から駿馬を奪い劉備に贈った。この馬の目の下には窪みがあり、額には白い斑点がある。
+
+攻撃力－25、攻撃範囲＋40&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="1" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-25" /><impact value="5" num="+80" /></impacts><objects><object id="4" /></objects></item><item itemid="10469" name="&lt;EN&gt;Gray Lightning&lt;EN&gt;&lt;CHS&gt;爪黄飞电&lt;CHS&gt;&lt;CHT&gt;爪黃飛電&lt;CHT&gt;&lt;JP&gt;爪黄飛電&lt;JP&gt;"><icon image="items\icon_zhuahuangfeidian-hd.png" /><description>&lt;EN&gt;Gray Lightning
+
+The favorite horse of Cao Cao's, which he rode at the hunting party in Hu Tian with the emperor.
+
+Range +24&lt;EN&gt;
+&lt;CHS&gt;爪黄飞电
+
+爪黄飞电与绝影同为曹操爱驹,但较之后者史实和演义记载均较少。
+
+攻击范围+24&lt;CHS&gt;
+&lt;CHT&gt;爪黃飛電
+
+爪黃飛電與絕影同為曹操愛駒,但較之後者史實和演義記載均較少。
+
+攻擊範圍+24&lt;CHT&gt;
+&lt;JP&gt;爪黄飛電
+
+爪黄飛電と絶影は共に曹操が寵愛した駿馬。だが前者の記述は歴史書や演義にもほとんどない。
+
+攻撃範囲＋24&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+48" /></impacts><objects /></item><item itemid="10471" name="&lt;EN&gt;Shadowless&lt;EN&gt;&lt;CHS&gt;绝影&lt;CHS&gt;&lt;CHT&gt;絕影&lt;CHT&gt;&lt;JP&gt;絶影&lt;JP&gt;"><icon image="items\icon_jueying-hd.png" /><description>&lt;EN&gt;Shadowless
+
+Also Cao Cao's favorite horse. It could run as fast as lightening after shot 3 times by arrows in the battle against Zhangxiu.
+
+Attack -10, Range +32&lt;EN&gt;
+&lt;CHS&gt;绝影
+
+讨伐张绣时，曹操大败。绝影身中三箭竟仍能奋蹄疾驰，且速度极快，最后被流矢射中眼睛才倒了下去。
+
+攻击力-10，攻击范围+32&lt;CHS&gt;
+&lt;CHT&gt;絕影
+
+討伐張繡時，曹操大敗。絕影身中三箭竟仍能奮蹄疾馳，且速度極快，最後被流矢射中眼睛才倒了下去。
+
+攻擊力-10，攻擊範圍+32&lt;CHT&gt;
+&lt;JP&gt;絶影
+
+曹操が張綉討伐に大敗した際、絶影は3本の矢を受けながらも全力で疾走し、最後は流れ矢が目に刺さり倒れた。
+
+攻撃力－10、攻撃範囲＋32&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-10" /><impact value="5" num="+64" /></impacts><objects /></item><item itemid="10473" name="&lt;EN&gt;Red Hare&lt;EN&gt;&lt;CHS&gt;赤兔&lt;CHS&gt;&lt;CHT&gt;赤兔&lt;CHT&gt;&lt;JP&gt;赤兎&lt;JP&gt;"><icon image="items\icon_chitu-hd.png" /><description>&lt;EN&gt;Red Hare
+
+A brave and strong horse once owned by Lu Bu. Cao Cao excuted Lv Bu and gave the horse to Guan Yu.
+
+Attack -15, Range +48&lt;EN&gt;
+&lt;CHS&gt;赤兔
+
+人中吕布，马中赤兔。此马乃董卓送与吕布，曹操杀了吕布后送与关羽，关羽死后竟绝食而死追随主人而去。
+
+攻击力-15，攻击范围+48&lt;CHS&gt;
+&lt;CHT&gt;赤兔
+
+人中呂布，馬中赤兔。此馬乃董卓送與呂布，曹操殺了呂布後送與關羽，關羽死後竟絕食而死追隨主人而去。
+
+攻擊力-15，攻擊範圍+48&lt;CHT&gt;
+&lt;JP&gt;赤兎
+
+董卓が呂布に贈った馬であったが、曹操は呂布を討つと関羽に赤兎を贈った。関羽の死後、赤兎は絶食し主人の後を追った。
+
+攻撃力－15、攻撃範囲＋48&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-15" /><impact value="5" num="+96" /></impacts><objects /></item><item itemid="114666" name="&lt;EN&gt;White Crane&lt;EN&gt;&lt;CHS&gt;白鹤&lt;CHS&gt;&lt;CHT&gt;白鶴&lt;CHT&gt;&lt;JP&gt;白鶴&lt;JP&gt;"><icon image="items\icon_baihe-hd.png" /><description>&lt;EN&gt;White Crane
+
+The horse belonged to Cao Hong and Emperor Wei Wu.
+
+Attack -10, Range+16&lt;EN&gt;
+&lt;CHS&gt;白鹤
+
+曹洪与魏武所乘之马名曰白鹤。
+
+攻击力-10，攻击范围+16&lt;CHS&gt;
+&lt;CHT&gt;白鶴
+
+曹洪與魏武所乘之馬名曰白鶴。
+
+攻擊力-10，攻擊範圍+16&lt;CHT&gt;
+&lt;JP&gt;白鶴
+
+曹洪と魏武が乗った馬。
+
+攻撃力－10、攻撃範囲＋16&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-10" /><impact value="5" num="+32" /></impacts><objects /></item><item itemid="114668" name="&lt;EN&gt;Express Sail&lt;EN&gt;&lt;CHS&gt;快航&lt;CHS&gt;&lt;CHT&gt;快航&lt;CHT&gt;&lt;JP&gt;快航&lt;JP&gt;"><icon image="items\icon_kuaihang-hd.png" /><description>&lt;EN&gt;Express Sail
+
+The famous horse of Jiang Dong, was owned by the King of Wu - Sun Quan.
+
+Attack -10, Range+26&lt;EN&gt;
+&lt;CHS&gt;快航
+
+江东名马，吴主孙仲谋之坐骑。逍遥津之战一跳飞过小师桥，若无它仲谋危矣，可与的卢跃檀溪媲美。
+
+攻击力-10，攻击范围+26&lt;CHS&gt;
+&lt;CHT&gt;快航
+
+江東名馬，吳主孫仲謀之坐騎。逍遙津之戰一跳飛過小師橋，若無它仲謀危矣，可與的盧躍檀溪媲美。
+
+攻擊力-10，攻擊範圍+26&lt;CHT&gt;
+&lt;JP&gt;快航
+
+江東の名馬。逍遥津の戦いで孫仲謀は快航に乗り小師橋を飛び越えた事で命拾いした。的盧に匹敵する名馬。
+
+攻撃力－10、攻撃範囲＋26&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-10" /><impact value="5" num="+52" /></impacts><objects /></item><item itemid="114670" name="&lt;EN&gt;Clouds over the Snow&lt;EN&gt;&lt;CHS&gt;乌云踏雪&lt;CHS&gt;&lt;CHT&gt;烏雲踏雪&lt;CHT&gt;&lt;JP&gt;烏雲踏雪&lt;JP&gt;"><icon image="items\icon_wuyuntaxue-hd.png" /><description>&lt;EN&gt;Clouds over the Snow
+
+The heroic horse ridden by Zhang Fei.
+
+Range +28&lt;EN&gt;
+&lt;CHS&gt;乌云踏雪
+
+关外名驹，千里绝群，张飞之马。长坂桥上与三将军共退大魏雄师，为马中英雄。
+
+攻击范围+28&lt;CHS&gt;
+&lt;CHT&gt;烏雲踏雪
+
+關外名駒，千里絕群，張飛之馬。長阪橋上與三將軍共退大魏雄師，為馬中英雄。
+
+攻擊範圍+28&lt;CHT&gt;
+&lt;JP&gt;烏雲踏雪
+
+張飛の駿馬。長坂橋で三将軍と共に魏の精兵を退けた、馬中の英雄。
+
+攻撃範囲＋28&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+56" /></impacts><objects /></item><item itemid="118740" name="&lt;EN&gt;Jade Lion&lt;EN&gt;&lt;CHS&gt;夜照玉狮子&lt;CHS&gt;&lt;CHT&gt;夜照玉獅子&lt;CHT&gt;&lt;JP&gt;夜照玉獅子&lt;JP&gt;"><icon image="items\icon_yezhaoyushizi-hd.png" /><description>&lt;EN&gt;Jade Lion
+
+The trusted horse of Zhao Yun, fought with him bravely at Chang Ban Po.
+
+Attack -10, Range +35&lt;EN&gt;
+&lt;CHS&gt;夜照玉狮子
+
+长坂坡上，载赵云七进七出，立于不败，并于落穴中飞跃而起的那匹马，名叫夜照玉狮子。
+
+攻击力-10，攻击范围+35&lt;CHS&gt;
+&lt;CHT&gt;夜照玉獅子
+
+長阪坡上，載趙雲七進七出，立於不敗，並於落穴中飛躍而起的那匹馬，名叫夜照玉獅子。
+
+攻擊力-10，攻擊範圍+35&lt;CHT&gt;
+&lt;JP&gt;夜照玉獅子
+
+長坂坡で趙雲が敵陣に7回斬り込み無事生還できたのも、この馬のお陰。
+
+攻撃力－10、攻撃範囲＋35&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-10" /><impact value="5" num="+70" /></impacts><objects /></item><item itemid="134829" name="&lt;EN&gt;Dao Li&lt;EN&gt;&lt;CHS&gt;盗骊&lt;CHS&gt;&lt;CHT&gt;盜驪&lt;CHT&gt;&lt;JP&gt;盗驪&lt;JP&gt;"><icon image="items\icon_daoli-hd.png" /><description>&lt;EN&gt;Dao Li
+
+A famous horse in northeast China, well-built, outstanding in running long distance, violent temper and difficult to tame.  
+
+Range +13&lt;EN&gt;
+&lt;CHS&gt;盗骊
+
+乃关外名马，体格健壮，千里绝群，脾气暴烈，极难驯服。
+
+攻击范围+13&lt;CHS&gt;
+&lt;CHT&gt;盜驪
+
+乃關外名馬，體格健壯，千里絕群，脾氣暴烈，極難馴服。
+
+攻擊範圍+13&lt;CHT&gt;
+&lt;JP&gt;盗驪
+
+名馬。体つきは逞しく、気性が荒く、乗りこなすのは難しい。
+
+攻撃範囲＋13&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="5" num="+26" /></impacts><objects /></item><item itemid="134831" name="&lt;EN&gt;Jing Fan &lt;EN&gt;&lt;CHS&gt;惊帆&lt;CHS&gt;&lt;CHT&gt;驚帆&lt;CHT&gt;&lt;JP&gt;愕帆&lt;JP&gt;"><icon image="items\icon_yezhaoyushizi-hd.png" /><description>&lt;EN&gt;Jing Fan
+
+The horse of Yeh, belonging to the type of Hetao, amazing endurance, fast in speed, running like flowing water and clouds, and giant sail down streaming. 
+
+Speed -0.05, Range +25&lt;EN&gt;
+&lt;CHS&gt;惊帆
+
+曹真之马。河套马种，耐力惊人，速度飞快，奔跑如行云流水，譬如巨帆顺流。
+
+攻击速度-0.05，攻击范围+25&lt;CHS&gt;
+&lt;CHT&gt;驚帆
+
+曹真之馬。河套馬種，耐力驚人，速度飛快，奔跑如行雲流水，譬如巨帆順流。
+
+攻擊速度-0.05，攻擊範圍+25&lt;CHT&gt;
+&lt;JP&gt;愕帆
+
+曹真の馬。河套の馬種。忍耐強くスピードがあり、浮雲や流水の如く駆け抜ける。
+
+攻撃速度－0.05、攻撃範囲＋25&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="3" num="-0.05" /><impact value="5" num="+50" /></impacts><objects /></item><item itemid="134833" name="&lt;EN&gt;Wind Chaser&lt;EN&gt;&lt;CHS&gt;追风&lt;CHS&gt;&lt;CHT&gt;追風&lt;CHT&gt;&lt;JP&gt;追風&lt;JP&gt;"><icon image="items\icon_dilu-hd.png" /><description>&lt;EN&gt;Wind Chaser
+
+Qin Shihuang had seven famous horses, the first one was Wind Chaser.
+
+Attack -25, Speed +0.2, Range +38&lt;EN&gt;
+&lt;CHS&gt;追风
+
+秦始皇有七匹名马，第一名正是追风。
+
+攻击力-25，攻击速度+0.2，攻击范围+38&lt;CHS&gt;
+&lt;CHT&gt;追風
+
+秦始皇有七匹名馬，第一名正是追風。
+攻擊力-25，攻擊速度+0.2，攻擊範圍+38&lt;CHT&gt;
+&lt;JP&gt;追風
+
+秦の始皇帝の7匹の駿馬のうちNO1の馬。
+
+攻撃力－25、攻撃速度＋0.2、攻撃範囲＋38&lt;JP&gt;</description><money><buy value="0" /><sell value="0" /></money><limits><lv value="0" /><wuxings /><bosses /></limits><impacts><impact value="1" num="-25" /><impact value="3" num="+0.2" /><impact value="5" num="+76" /></impacts><objects /></item></itemtype></itemlist>
