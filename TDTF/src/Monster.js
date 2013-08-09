@@ -22,7 +22,7 @@ var Monster = cc.Sprite.extend({
     attackTD:5, //损失td的值
     delayTime:1 + 1.2 * Math.random(),
     moveDir:TD.ENEMY_MOVE_TYPE.MOVE.RIGHT, //移动的mode
-    appearPosition:cc.p(60, 60), //初始的位置
+//    appearPosition:cc.p(60, 60), //初始的位置
     _timeTick:0, //时间tick
     _hurtColorLife:0, //血条
     _textureName:null,
@@ -36,6 +36,8 @@ var Monster = cc.Sprite.extend({
     ctor:function (arg) {
         // needed for JS-Bindings compatibility
         cc.associateWithNative(this, cc.Sprite);
+
+        this._super();
         this.HP = arg.HP;
         this._MaxHP = arg.HP;
         this.moveType = arg.moveType;
@@ -43,7 +45,7 @@ var Monster = cc.Sprite.extend({
         this.attackTD = arg.attackTD;
         this.plist = arg.plist;
         this.sImage = arg.sImage;
-        this.speed = arg.speed;
+        this.speed = arg.speed  * sizeRatio;
         this._textureName = arg.textureName;
         this._action = [];
         this._animFrams = [];
@@ -56,9 +58,10 @@ var Monster = cc.Sprite.extend({
 //        this._Xuecao.setColor(cc.c3b(255,0,0));
 //        this._Xuecao.setPosition(cc.p(200,257));
 //        this.addChild(this._Xuecao);
-        this._rectXuetiao =cc.TextureCache.getInstance().addImage(s_GUI);
+        this._rectXuetiao = cc.TextureCache.getInstance().addImage(s_GUI);
         this._Xuecao = cc.Sprite.createWithTexture(this._rectXuetiao, cc.rect(895,587,54,10));
-        this._Xuecao.setPosition(cc.p(200,257));
+        this._Xuecao.setAnchorPoint(cc.PointZero());
+        this._Xuecao.setPosition(cc.p(173 * sizeRatio,247 * sizeRatio));
         this.addChild(this._Xuecao);
         cc.SpriteFrameCache.getInstance().addSpriteFrames(this.plist, this.sImage);
         this.initFrame();
@@ -181,15 +184,21 @@ var Monster = cc.Sprite.extend({
             TD.MONEY += this.money;
            // parentlayer.updateUI();
             cc.ArrayRemoveObject(TD.CONTAINER.ENEMIES, this);
-            this.removeFromParent();
+            this.removeFromParent(true);
+            director.getActionManager().pauseTarget(this);
+            return true;
         }
         if (this._reachDest) {
             TD.LIFE = TD.LIFE - this.attackTD;
 //            cc.log("LIFE:" + TD.LIFE);
             parentlayer.updateUI();
             cc.ArrayRemoveObject(TD.CONTAINER.ENEMIES, this);
-            this.removeFromParent();
+            this.removeFromParent(true);
+            director.getActionManager().pauseTarget(this);
+            return true;
         }
+
+        return false;
 
         //此处需要调用场景中的函数来更新ui，即updateUI();
         //加点音效,动画啊什么的乱七八糟
@@ -200,26 +209,28 @@ var Monster = cc.Sprite.extend({
         this._hurtColorLife = 2;
         this.HP = this.HP - Hpminus;
         this._Xuecao.initWithTexture(this._rectXuetiao, cc.rect(895,587,54*(this.HP/this._MaxHP),10));
-        this.setColor(cc.c3b(255, 0, 0));
-        var action = cc.Sequence.create(
-            cc.DelayTime.create(0.05),
-            cc.CallFunc.create(this.setMColor, this));
-        this.runAction(action);
+//        this.setColor(cc.c3b(255, 0, 0));
+//        var action = cc.Sequence.create(
+//            cc.DelayTime.create(0.2),
+//            cc.CallFunc.create(this.setMColor, this));
+//        this.scheduleOnce(this.setMColor, 0.1);
+
+      // 不知道为啥不能用sequence。。。。。
+        var blinkAction = cc.Blink.create(0.1, 1);
+        this.runAction(blinkAction);
         this.Mdestroy();
     },
-    setMColor:function(){
-      this.setColor(cc.c3b(255,255,255));
-    },
+//    setMColor:function(){
+//      this.setColor(cc.c3b(255,255,255));
+//    },
     collideRect:function () {
-        //碰撞检测
-        var a = this.getContentSize();
-        var p = this.getPosition();
-        return cc.rect(p.x - a.width / 2, p.y - a.height / 4, a.width, a.height / 2);
-    },
+          var p = this.getPosition();
+          var r = new cc.rect(p.x - 32 * sizeRatio, p.y - 32 * sizeRatio, 64 * sizeRatio, 64 * sizeRatio);
+          return r;
+     },
 
     enableEvents:function (enabled) {
-    //        cc.log("platform 1st scene:" + cc.config.platform);
-        var t = cc.config.platform;
+        var t = sys.platform;
         if ( t == "browse") {
             this.setMouseEnabled(enabled);
             this.setTouchEnabled(enabled);

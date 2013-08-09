@@ -14,10 +14,9 @@ var MainMenu = cc.Layer.extend({
         cc.SpriteFrameCache.getInstance().addSpriteFrames(s_uiSheet_chs_plist, s_uiSheet_chs_png);
         cc.SpriteFrameCache.getInstance().addSpriteFrames(s_GUI_plist, s_GUI);
 
-        var size = cc.Director.getInstance().getWinSize();
-
         var bgPic = cc.Sprite.create(s_StartScene_bg);
-        bgPic.setPosition(cc.p(size.width / 2, size.height / 2));
+        bgPic.setAnchorPoint(cc.PointZero());
+        bgPic.setPosition(cc.PointZero());
         this.addChild(bgPic, -1);
 
         var startFont = cc.Sprite.createWithSpriteFrameName("StartScene_Start Game_chs.png");
@@ -31,9 +30,10 @@ var MainMenu = cc.Layer.extend({
         var startBg3_2 = cc.Sprite.createWithSpriteFrameName("ban01_2.png");
 
         var menu = cc.Menu.create();
-        menu.setPosition(cc.p(750, 500));
+        menu.setAnchorPoint(cc.p(0.5, 0.5));
+        menu.setPosition(cc.p(750 * sizeRatio, 500 * sizeRatio));
         var startGameItem = cc.MenuItemSprite.create(startBg1_1, startBg1_2, this.loadinGame, this);
-        startFont.setPosition( cc.p(menu.getPosition().x, menu.getPosition().y + startBg1_1.getContentSize().height + 10));
+        startFont.setPosition( cc.p(menu.getPosition().x, menu.getPosition().y + startBg1_1.getContentSize().height + 10 * sizeRatio));
         this.addChild(startFont, 2);
         menu.addChild(startGameItem, 1);
 
@@ -43,13 +43,14 @@ var MainMenu = cc.Layer.extend({
         menu.addChild(continueGameItem, 1);
 
         var helpGameItem = cc.MenuItemSprite.create(startBg3_1, startBg3_2, this.helpGame, this);
-        helpFont.setPosition(cc.p(menu.getPosition().x, menu.getPosition().y - startBg1_1.getContentSize().height - 10));
+        helpFont.setPosition(cc.p(menu.getPosition().x, menu.getPosition().y - startBg1_1.getContentSize().height - 10 * sizeRatio));
         this.addChild(helpFont, 2);
         menu.addChild(helpGameItem, 1);
 
-        menu.alignItemsVerticallyWithPadding(10);
+        menu.alignItemsVerticallyWithPadding(10 * sizeRatio);
         this.addChild(menu, 1);
 
+        this.enableEvents(true);
         return true;
     },
 
@@ -77,15 +78,33 @@ var MainMenu = cc.Layer.extend({
         layer.init();
         scene.addChild(layer);
         cc.Director.getInstance().replaceScene(cc.TransitionFade.create(1.2, scene));
-    }
+    },
+
+  enableEvents:function (enabled) {
+  //        cc.log("platform 1st scene:" + cc.config.platform);
+      var t = sys.platform;
+      if ( t == "browse") {
+          this.setMouseEnabled(enabled);
+          this.setTouchEnabled(enabled);
+      }else if(t == "mobile") {
+          this.setTouchEnabled(enabled);
+          this.setMouseEnabled(!enabled);
+      } else if (t == "desktop") {
+          this.setMouseEnabled(enabled);
+      }
+  }
 });
 
 var MainMenuScene = cc.Scene.extend({
-    //进入场景时
-    onEnter:function () {
-        this._super();
-        var layer = new MainMenu();
-        layer.init();
-        this.addChild(layer);
+
+    ctor: function(){
+      this._super();
+      director = cc.Director.getInstance();
+      winSize = director.getWinSize();
+      sizeRatio = winSize.width / 960;
+      EGLView = cc.EGLView.getInstance();
+      var layer = new MainMenu();
+      layer.init();
+      this.addChild(layer);
     }
 });

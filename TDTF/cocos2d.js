@@ -49,8 +49,7 @@ var TD = TD || {};
             'src/bullet.js',
             'src/GameOver.js',
             'src/MainMenu.js',
-            'src/HelpView.js',
-            'src/Game.js'
+            'src/HelpView.js'
         ]
     };
     window.addEventListener('DOMContentLoaded', function () {

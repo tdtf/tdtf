@@ -16,15 +16,18 @@ var Bullet = cc.Sprite.extend({
     bulletSpeed:null,
     onwer:null,
     ctor:function (onwer) {
+        this._super();
         // needed for JS-Bindings compatibility
+        cc.associateWithNative(this, cc.Sprite);
         this.onwer = onwer;
         this.bulletSpeed = onwer._weaponSpeed;
         this._HPminus = onwer._HPminus;
-        cc.associateWithNative(this, cc.Sprite);
-        var bulletTexture = cc.TextureCache.getInstance().addImage(onwer._weaponType);
-        this.initWithTexture(bulletTexture);
+
+//        var bulletTexture = cc.TextureCache.getInstance().addImage(onwer._weaponType);
+        this.initWithSpriteFrameName(onwer._weaponType);
         this.setPosition(onwer.getPosition());
     },
+
     throwBombing:function (dt) {
         TD.CONTAINER.ENEMY_BULLETS.push(this);
         var p = dt.getPosition();
@@ -33,7 +36,9 @@ var Bullet = cc.Sprite.extend({
         var calY = Math.abs(parseInt(p.y) - parseInt(pos.y));
         var distance_float = Math.pow((calX * calX + calY * calY), 0.5);
         var distance_int = parseInt(distance_float);
-        var ac = new cc.MoveBy.create(parseInt(distance_int/this.bulletSpeed), cc.p(p.x-pos.x, p.y-pos.y));
+        cc.log("distance:" + distance_int + " speed:" + (this.bulletSpeed * sizeRatio));
+        var ac = new cc.MoveBy.create(distance_int / (this.bulletSpeed * sizeRatio), cc.p(p.x-pos.x, p.y-pos.y));
+        var action = cc.Sequence.create();
         this.runAction(ac);
     },
     destroy:function () {
@@ -48,7 +53,7 @@ var Bullet = cc.Sprite.extend({
         return r;
     },
     setDir:function(angle){
-        cc.log("jiaodu:"+angle);
-         this.setRotation(-245);
+//      cc.log("jiaodu:"+angle);
+      this.setRotation(180 - angle);
     }
 });

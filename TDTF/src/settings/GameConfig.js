@@ -51,7 +51,7 @@ TD.PROTECTOR_ATTACK_TYPE = {
     ATTACKABNOMAL:{UPLEFT:"upleft", UPRIGHT:"upright", DOWNLEFT:"downleft", DOWNRIGHT:"downright"},
     ATTACKNOMAL:{UP:"up", DOWN:"down", LEFT:"left", RIGHT:"right"},
     ATTACKALLDIR:{UP:"up", DOWN:"down", LEFT:"left", RIGHT:"right",UPLEFT:"upleft", UPRIGHT:"upright", DOWNLEFT:"downleft", DOWNRIGHT:"downright" }
-}
+};
 
 TD.ATTACKMODE = {
     NOMAL:"nomal",
@@ -131,7 +131,7 @@ TD.MonsterType = [
         HP:30,
         moveType:TD.ENEMY_MOVE_TYPE.MOVE,
         attackTD:10,
-        money:15,
+        money:1,
         speed:40
     },
     {
@@ -142,7 +142,7 @@ TD.MonsterType = [
         HP:40,
         moveType:TD.ENEMY_MOVE_TYPE.MOVE,
         attackTD:20,
-        money:40,
+        money:2,
         speed:50
     },
     {
@@ -153,7 +153,7 @@ TD.MonsterType = [
         HP:50,
         moveType:TD.ENEMY_MOVE_TYPE.MOVE,
         attackTD:30,
-        money:50,
+        money:3,
         speed:30
     }
 ];
@@ -166,8 +166,9 @@ TD.ProtectorType = [
         plist:s_HuangZhongAttack_plist,
         sImage:s_HuangZhongAttack,
         throwBombing:true,
-        weaponType:s_HuangzhongJian,
-        weaponSpeed:100,
+//        weaponType:s_HuangzhongJian,
+        weaponType:"arrow.png",
+        weaponSpeed:600,
         attackMode:TD.ATTACKMODE.ABNOMAL,
         cost:15,
         attackRange:200,

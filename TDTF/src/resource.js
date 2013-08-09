@@ -90,7 +90,7 @@ var s_Help_02 = dirImg + "Help/Help_02_chs-hd.png";
 var s_Help_03 = dirImg + "Help/Help_03_chs-hd.png";
 
 
-var g_ressources = [
+var g_resources = [
     //image
     {type:"image", src:s_BigMap},
     {type:"image", src:s_menu},

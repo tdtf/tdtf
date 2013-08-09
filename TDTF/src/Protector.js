@@ -16,7 +16,7 @@ var Protector = cc.Sprite.extend({
     _weaponSpeed:null,
     attackDir:TD.PROTECTOR_ATTACK_TYPE.UP,
     _animFrams:null, //攻击帧
-    appearPosition:cc.p(80, 60), //初始的位置,
+//    appearPosition:cc.p(80, 60), //初始的位置,
     _attackMode:"null",
     pType:0, //保卫者的类型
     target:null, //攻击目标的id
@@ -27,8 +27,12 @@ var Protector = cc.Sprite.extend({
     _maxRange:1,
 
     ctor:function (arg) {
+        // needed for JS-Bindings compatibility
+        cc.associateWithNative(this, cc.Sprite);
+
+        this._super();
         this._cost = arg.cost;
-        this.attackRange = arg.attackRange;
+        this.attackRange = arg.attackRange * sizeRatio;
         this.pType = arg.pType;
         this._textureName = arg.textureName;
         this.plist = arg.plist;
@@ -36,39 +40,43 @@ var Protector = cc.Sprite.extend({
         this._displayPic = arg.displayPic;
         this._HPminus = arg.HPminus;
         this._weaponType = arg.weaponType;
-        this._weaponSpeed = arg.weaponSpeed;
+        this._weaponSpeed = arg.weaponSpeed * sizeRatio;
         this._attackMode = arg.attackMode;
         this.throwBombing = arg.throwBombing;
-        // needed for JS-Bindings compatibility
-        cc.associateWithNative(this, cc.Sprite);
+
         cc.SpriteFrameCache.getInstance().addSpriteFrames(this.plist, this.sImage);
         this.initWithSpriteFrameName(this._textureName);
-        this.schedule(this.findTaget, 0.4);
+        this.schedule(this.findTaget, 1.1);
         //this.initFrames();
         // set frame
     },
+
     initFrameAndAttackAni:function (dir) {
         this._animFrams = [];
         var sr = this._textureName;
         sr = sr.replace("down", dir);
         var frame = cc.SpriteFrameCache.getInstance().getSpriteFrame(sr);
+        var lastFrame = frame;
         for (var i = 1; frame; i++) {
             this._animFrams.push(frame);
             sr = sr.replace(i, i + 1);
             frame = cc.SpriteFrameCache.getInstance().getSpriteFrame(sr);
         }
+        this._animFrams.push(lastFrame);
+
         var animation = cc.Animation.create(this._animFrams,0.1);
         var animate = cc.Animate.create(animation);
 
         if (this._animFrams[0] == null) {
             if(this._action != null){
-                cc.log("我再运行之前动作。。");
+//                cc.log("我再运行之前动作。。");
                 this.runAction(this._action);
             }
             return;
         }
+
         this._action = cc.Sequence.create(
-            cc.Repeat.create(animate, 1),
+            cc.Repeat.create(animate, 0.5),
             cc.CallFunc.create(this.hurtMons, this)
         );
         this.runAction(this._action);
@@ -94,27 +102,29 @@ var Protector = cc.Sprite.extend({
         this.target = target;
         this.initFrameAndAttackAni(angle);
     },
-    destroyP:function () {
-//        var p = this.getPosition();
-        var myParent = this.getParent();
-//        myParent.addChild(new Explosion(p));
-        myParent.removeChild(this, true);
-//        if (TD.SOUND) {
-//            cc.AudioEngine.getInstance().playEffect(s_shipDestroyEffect);
-//        }
+    destroyP:function (tileCoord) {
+
+      TD.MAPARR[tileCoord.x][tileCoord.y] = 0;
+      TD.MONEY += this._cost;
+
+      this.stopAllActions();
+      this.removeFromParent(true);
+      cc.ArrayRemoveObject(TD.CONTAINER.PROTECTORS, this);
+      //        if (TD.SOUND) {
+      //            cc.AudioEngine.getInstance().playEffect(s_shipDestroyEffect);
+      //        }
     },
     hurtMons:function () {
-//        if (this.throwBombing) {
-//            cc.log("HAS BOMBS:" + this.throwBombing);
-//            var myBullet = new Bullet(this);
-//            this.getParent().addChild(myBullet);
-//            myBullet.setDir(this._BombAngle);
-//            myBullet.throwBombing(this.target);
-//        } else {
-//            cc.log("HAS BOMBS:" + this.throwBombing);
-//            this.target.hurt(this._HPminus);
-//        }
-        this.target.hurt(this._HPminus);
+        if (this.throwBombing) {
+            cc.log("HAS BOMBS:" + this.throwBombing);
+            var myBullet = new Bullet(this);
+            this.getParent().addChild(myBullet);
+            myBullet.setDir(this._BombAngle);
+            myBullet.throwBombing(this.target); // 内部含有this.target.hurt，在moveBy动作结束后
+        } else {
+            cc.log("HAS BOMBS:" + this.throwBombing);
+            this.target.hurt(this._HPminus);
+        }
     },
     /**
      * 寻找一个目标（怪物）
@@ -158,7 +168,7 @@ var Protector = cc.Sprite.extend({
       }
     },
     /**
-     * 取得目标的坐标（相对于地图左上角）
+     * 取得目标的坐标（相对于地图左上角），正常xy坐标系
      */
     getTargetPositionAngle:function (target) {
         var angle = "";
@@ -221,8 +231,18 @@ var Protector = cc.Sprite.extend({
     },
     collideRect:function () {
         var p = this.getPosition();
-        var a = this.getContentSize();
-        var r = new cc.rect(p.x - a.width / 2, p.y - a.height / 2, a.width, a.height);
+        var r = new cc.rect(p.x - 32 * sizeRatio, p.y - 32 * sizeRatio, 64 * sizeRatio, 64 * sizeRatio);
         return r;
+    },
+
+    upgradeToNext:function(levelManage){
+      // 添加升级protector, 攻击对象传递
+      var addPro = levelManage.addProtectorToGameLayer(this.getPosition(), TD.ProtectorType[this.pType + 1]);
+      addPro.findTaget();
+
+      // 从容器以及scene上移除低级protector
+      this.stopAllActions();
+      this.removeFromParent(true);
+      cc.ArrayRemoveObject(TD.CONTAINER.PROTECTORS, this);
     }
 });

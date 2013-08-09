@@ -116,10 +116,10 @@ var LevelManager = cc.Class.extend({
 
     //加载敌人到背景层
     addEnemyToGameLayer:function (enemyType) {
-//        cc.log("本次已有怪物数目:"+this._Spawn);
-//        cc.log("本次应有怪物数目:"+this._MonsterNum[this._currentWave]);
-//        cc.log("this._currentWave:" + this._currentWave);
-//        cc.log("this._waves:" + this._waves);
+        cc.log("本次已有怪物数目:"+this._Spawn);
+        cc.log("本次应有怪物数目:"+this._MonsterNum[this._currentWave]);
+        cc.log("this._currentWave:" + this._currentWave);
+        cc.log("this._waves:" + this._waves);
 
         if(this._Spawn == this._MonsterNum[this._currentWave]){
 //            this._gameLayer._time = -3;
@@ -138,7 +138,7 @@ var LevelManager = cc.Class.extend({
         }
 //        cc.log("enemyType:" + enemyType);
         var addEnemy = new Monster(TD.MonsterType[enemyType]);
-        var enemypos = cc.p(TD.WayPoints[0].x, TD.WayPoints[0].y);
+        var enemypos = cc.p(TD.WayPoints[0].x * sizeRatio, TD.WayPoints[0].y * sizeRatio);
 //        cc.log("firstpoit.x:" + enemypos.x);
 //        cc.log("firstpoit.y:" + enemypos.y);
         var enemycs = addEnemy.getContentSize();
@@ -208,6 +208,7 @@ var LevelManager = cc.Class.extend({
         cc.log("Protector Length" + TD.CONTAINER.PROTECTORS.length);
         return addProtector;
     },
+
     //加载地图到层
     addMapToGameLayer:function (tmxmap) {
         //将地图放在最底层

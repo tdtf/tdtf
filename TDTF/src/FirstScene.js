@@ -11,6 +11,7 @@ var FirstView = cc.Layer.extend({
     sprite:null,
     helloLabel:null,
     eventsPic: null,
+    levelpicmenu:null,
     init:function () {
         //////////////////////////////
         // 1. 调用父类的同名方法，初始化父类
@@ -25,7 +26,7 @@ var FirstView = cc.Layer.extend({
         cc.SpriteFrameCache.getInstance().addSpriteFrames(s_GUI_plist, s_GUI);
 
 
-        var label1 = cc.LabelTTF.create("关卡1：东门", "Arial", 20);
+        var label1 = cc.LabelTTF.create("关卡1：东门", "Arial", 20 * sizeRatio);
         var menuItemLabel1 = cc.MenuItemLabel.create(label1, function () {
             this.onNewGame(1);
             this.onButtonEffect();
@@ -33,7 +34,7 @@ var FirstView = cc.Layer.extend({
         menuItemLabel1.setScale(1.8);
 
 
-        var label2 = cc.LabelTTF.create("关卡2：25教学楼", "Arial", 20);
+        var label2 = cc.LabelTTF.create("关卡2：25教学楼", "Arial", 20 * sizeRatio);
         var menuItemLabel2 = cc.MenuItemLabel.create(label2, function () {
             this.onNewGame(2);
             this.onButtonEffect();
@@ -41,28 +42,28 @@ var FirstView = cc.Layer.extend({
         menuItemLabel2.setScale(1.6);
 
 
-        var label3 = cc.LabelTTF.create("关卡3：26楼", "Arial", 20);
+        var label3 = cc.LabelTTF.create("关卡3：26楼", "Arial", 20 * sizeRatio);
         var menuItemLabel3 = cc.MenuItemLabel.create(label3, function () {
             this.onNewGame(3);
             this.onButtonEffect();
         }.bind(this));
         menuItemLabel3.setScale(1.4);
 
-        var label4 = cc.LabelTTF.create("关卡4：鹏翔公寓", "Arial", 20);
+        var label4 = cc.LabelTTF.create("关卡4：鹏翔公寓", "Arial", 20 * sizeRatio);
         var menuItemLabel4 = cc.MenuItemLabel.create(label4, function () {
             this.onNewGame(4);
             this.onButtonEffect();
         }.bind(this));
         menuItemLabel4.setScale(1.2);
 
-        var label5 = cc.LabelTTF.create("关卡5：大活", "Arial", 20);
+        var label5 = cc.LabelTTF.create("关卡5：大活", "Arial", 20 * sizeRatio);
         var menuItemLabel5 = cc.MenuItemLabel.create(label5, function () {
             this.onNewGame(5);
             this.onButtonEffect();
         }.bind(this));
         menuItemLabel5.setScale(1.0);
 
-        var label6 = cc.LabelTTF.create("关卡6：9楼", "Arial", 20);
+        var label6 = cc.LabelTTF.create("关卡6：9楼", "Arial", 20 * sizeRatio);
         var menuItemLabel6 = cc.MenuItemLabel.create(label6, function () {
             this.onNewGame(6);
             this.onButtonEffect();
@@ -71,7 +72,7 @@ var FirstView = cc.Layer.extend({
 
         var menu1 = cc.Menu.create(menuItemLabel1, menuItemLabel2, menuItemLabel3, menuItemLabel4, menuItemLabel5, menuItemLabel6);
         menu1.setPosition(cc.p(size.width / 2, size.height / 2));
-        menu1.alignItemsVerticallyWithPadding(10);
+        menu1.alignItemsVerticallyWithPadding(10 * sizeRatio);
 
         // 添加动态可点入关卡图
         var gamelevelmenu = [];
@@ -79,47 +80,47 @@ var FirstView = cc.Layer.extend({
             this.onNewGame(1);
             this.onButtonEffect();
         }, this);
-        gamelevelmenu[0].setPosition(cc.p(154, 380));
+        gamelevelmenu[0].setPosition(cc.p(154 * sizeRatio, 380 * sizeRatio));
 
         gamelevelmenu[1] = cc.MenuItemImage.create(s_Level2Menu, null, function(){
             this.onNewGame(2);
             this.onButtonEffect();
         }, this);
-        gamelevelmenu[1].setPosition(cc.p(241, 642));
+        gamelevelmenu[1].setPosition(cc.p(241 * sizeRatio, 642 * sizeRatio));
 
         gamelevelmenu[2] = cc.MenuItemImage.create(s_Level3Menu, null, function(){
             this.onNewGame(3);
             this.onButtonEffect();
         }, this);
-        gamelevelmenu[2].setPosition(cc.p(507, 581));
+        gamelevelmenu[2].setPosition(cc.p(507 * sizeRatio, 581 * sizeRatio));
 
         gamelevelmenu[3] = cc.MenuItemImage.create(s_Level4Menu, null, function(){
             this.onNewGame(4);
             this.onButtonEffect();
         }, this);
-        gamelevelmenu[3].setPosition(cc.p(778, 600));
+        gamelevelmenu[3].setPosition(cc.p(778 * sizeRatio, 600 * sizeRatio));
 
         gamelevelmenu[4] = cc.MenuItemImage.create(s_Level5Menu, null, function(){
             this.onNewGame(5);
             this.onButtonEffect();
         }, this);
-        gamelevelmenu[4].setPosition(cc.p(731, 176));
+        gamelevelmenu[4].setPosition(cc.p(731 * sizeRatio, 176 * sizeRatio));
 
         gamelevelmenu[5] = cc.MenuItemImage.create(s_Level6Menu, null, function(){
             this.onNewGame(6);
             this.onButtonEffect();
         }, this);
-        gamelevelmenu[5].setPosition(cc.p(360, 195));
+        gamelevelmenu[5].setPosition(cc.p(360 * sizeRatio, 195 * sizeRatio));
 
 //        cc.log("TD.MAXLEVEL" + TD.MAXLEVEL);
         for(var i = 1; i <= TD.MAXLEVEL; i++){
             var fade_4ever = cc.RepeatForever.create(cc.Sequence.create(cc.FadeOut.create(1), cc.FadeIn.create(1)));
             gamelevelmenu[i - 1].runAction(fade_4ever);
         }
-        var levelpicmenu = cc.Menu.create(gamelevelmenu[0],gamelevelmenu[1],gamelevelmenu[2],
+        this.levelpicmenu = cc.Menu.create(gamelevelmenu[0],gamelevelmenu[1],gamelevelmenu[2],
             gamelevelmenu[3],gamelevelmenu[4],gamelevelmenu[5]);
-        levelpicmenu.setPosition(cc.p(0, 0));
-        this.addChild(levelpicmenu);
+        this.levelpicmenu.setPosition(cc.p(0, 0));
+        this.addChild(this.levelpicmenu);
 
         var arrowlevel = cc.Sprite.createWithSpriteFrameName("levelArrow.png");
         var arrpos = gamelevelmenu[TD.MAXLEVEL - 1].getPosition();
@@ -143,9 +144,7 @@ var FirstView = cc.Layer.extend({
         this.addChild(menu1);
         this.addChild(arrowlevel);
 
-        this.enableEvents(true);
-
-        var returnLable = cc.LabelTTF.create("返回主界面", "Arial", 20);
+        var returnLable = cc.LabelTTF.create("返回主界面", "Arial", 20 * sizeRatio);
         var menuItem = cc.MenuItemLabel.create(returnLable, this.returnMainMenu, this);
         var menu1 = cc.Menu.create(menuItem);
         menu1.setPosition( cc.p(size.width - returnLable.getContentSize().width, returnLable.getContentSize().height));
@@ -154,25 +153,13 @@ var FirstView = cc.Layer.extend({
         return true;
     },
 
-    enableEvents:function (enabled) {
-//        cc.log("platform 1st scene:" + cc.config.platform);
-        var t = cc.config.platform;
-        if ( t == "browse") {
-            this.setMouseEnabled(enabled);
-            this.setTouchEnabled(enabled);
-        }else if(t == "mobile") {
-            this.setTouchEnabled(enabled);
-            this.setMouseEnabled(!enabled);
-        } else if (t == "desktop") {
-            this.setMouseEnabled(enabled);
-        }
-    },
 
     /**
      *  显示每章开始事件图片 or动画, 一张横向大图，用moveBy实现变换
      * @param level
      */
     showEvents:function( level ){
+        this.levelpicmenu.setEnabled(false);
         var size = cc.Director.getInstance().getWinSize();
 
         switch (0) {
@@ -201,7 +188,7 @@ var FirstView = cc.Layer.extend({
 
         // 根据每个章节的事件图片多少，来添加moveBy动作
         var loadIn = cc.FadeIn.create(1);
-        var moveToNext = cc.MoveBy.create(0.5, cc.p(-960, 0));
+        var moveToNext = cc.MoveBy.create(0.5, cc.p(-960 * sizeRatio, 0));
         var showTime = cc.DelayTime.create(3);
         var fullAct = [loadIn];
         for(var i = 0; i < TD.Levels.Level1.eventsNum - 1; i++){
